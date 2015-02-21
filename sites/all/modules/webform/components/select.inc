@@ -271,6 +271,11 @@ function _webform_edit_validate_options($element, &$form_state) {
   // Options saved for grid components.
   else {
     $form_state['values']['extra']['custom_' . rtrim($key, 's') . '_keys'] = $element_options['custom_keys'];
+    // There is only one 'value', but grids have two options widgets, one for questions and one for options.
+    // Only options have a default 'value'. Note that multiple selection is now allowed for grid options.
+    if ($key == 'options') {
+      $form_state['values']['value'] = $element_options['default_value'];
+    }
   }
 }
 
@@ -309,6 +314,10 @@ function _webform_render_select($component, $value = NULL, $filter = TRUE) {
   // Convert the user-entered options list into an array.
   $default_value = $filter ? webform_replace_tokens($component['value'], $node) : $component['value'];
   $options = _webform_select_options($component, !$component['extra']['aslist'], $filter);
+  if (empty($options)) {
+    // Make element inaccessible if there are no options as there is no point in showing it.
+    $element['#access'] = FALSE;
+  }
 
   if ($component['extra']['optrand']) {
     _webform_shuffle_options($options);
@@ -323,20 +332,22 @@ function _webform_render_select($component, $value = NULL, $filter = TRUE) {
   // Set the component options.
   $element['#options'] = $options;
 
-  // Set the default value.
+  // Set the default value. Note: "No choice" is stored as an empty string,
+  // which will match a 0 key for radios; NULL is used to avoid unintentional
+  // defaulting to the 0 option.
   if (isset($value)) {
     if ($component['extra']['multiple']) {
       // Set the value as an array.
       $element['#default_value'] = array();
       foreach ((array) $value as $key => $option_value) {
-        $element['#default_value'][] = $option_value;
+        $element['#default_value'][] = $option_value === '' ? NULL : $option_value;
       }
     }
     else {
       // Set the value as a single string.
       $element['#default_value'] = '';
       foreach ((array) $value as $option_value) {
-        $element['#default_value'] = $option_value;
+        $element['#default_value'] = $option_value === '' ? NULL : $option_value;
       }
     }
   }
@@ -489,7 +500,7 @@ function webform_expand_select_ids($element) {
     $element[$key]['#id'] = $id . '-' . $delta;
 
     // Prevent scripts or CSS in the labels for each checkbox or radio.
-    $element[$key]['#title'] = webform_filter_xss($element[$key]['#title']);
+    $element[$key]['#title'] = isset($element[$key]['#title']) ? webform_filter_xss($element[$key]['#title']) : '';
   }
   return $element;
 }
@@ -500,6 +511,7 @@ function webform_expand_select_ids($element) {
 function _webform_display_select($component, $value, $format = 'html') {
   return array(
     '#title' => $component['name'],
+    '#title_display' => $component['extra']['title_display'] ? $component['extra']['title_display'] : 'before',
     '#weight' => $component['weight'],
     '#multiple' => $component['extra']['multiple'],
     '#theme' => 'webform_display_select',
@@ -850,7 +862,7 @@ function webform_select_options_ajax($source_name = '') {
 
   $component['extra']['options_source'] = $source_name;
   if ($source_name && isset($info[$source_name])) {
-    $options = _webform_select_options_to_text(_webform_select_options($component, !$component['extra']['aslist'], FALSE));
+    $options = _webform_select_options_to_text(_webform_select_options($component, FALSE, FALSE));
   }
   else {
     $options = '';

@@ -1,0 +1,17 @@
+name = CTBA theme
+description = website theme
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = assets/css/stylesheet.css
+
+regions[block_header] = Header
+regions[block_page_top] = Page top
+regions[block_page_bottom] = Page bottom
+regions[content] = Content
+regions[block_homepage] = Homepage
+regions[block_sidebar] = Sidebar
+regions[block_footer] = Footer
+
+settings[shortcut_module_link] = 0

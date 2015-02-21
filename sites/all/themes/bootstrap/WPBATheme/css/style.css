@@ -231,3 +231,17 @@ padding-top: 30px !important;
 
 }
 
+
+.page-node-add-leaguesite-players .form-item-title label {
+    
+    font-size: 0;
+    
+}
+
+.page-node-add-leaguesite-players .form-item-title label::before {
+    
+    content: 'ID/Passport *'; 
+    font-size: 14px;
+    
+}
+

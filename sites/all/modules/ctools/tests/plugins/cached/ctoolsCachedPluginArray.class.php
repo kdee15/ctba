@@ -1,7 +1,7 @@
-<?php
-/**
- * @file
- * A cached plugin object that tests inheritence including.
- */
-
-class ctoolsCachedPluginArray {}
+<?php
+/**
+ * @file
+ * A cached plugin object that tests inheritence including.
+ */
+
+class ctoolsCachedPluginArray {}
