@@ -1,0 +1,38 @@
+/**
+
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+
+ * remove this comment and start adding your styles to this file.
+
+ */
+
+
+
+
+
+/**** Header
+
+/****************************************/
+
+
+
+/* navigation */
+
+
+
+/* Homepage Widgets */
+
+.front-widgets						{margin:15px -15px;}
+.front .front-widgets				{margin:0 -15px;}
+.front-widgets .container .row,	
+.home-widget						{padding:0; margin:0 0 1%;}
+.home-widget .region .block			{}
+.home-widget .region 				{margin:0; min-height:300px; position:relative; clear:both; background:url(../img/bg-widget.png) 0 0;}
+.home-widget .block-title			{margin:0; padding:4%; background:#777;}
+.home-widget .region p				{padding:2% 4%;}
+.home-widget .region ul				{padding:0;}
+.home-widget .region ul li			{list-style-type:none; margin:0; padding:0;}
+.home-widget .region ul li a		{display:block; padding:2% 4%;}
+.home-widget .region ul li a:hover,
+.home-widget .region ul li a:focus	{background:#F4F4F4;}
+.home-widget .region .more-link		{text-align:right; padding:2% 4%;}

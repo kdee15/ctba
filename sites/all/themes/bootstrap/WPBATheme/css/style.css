@@ -1,0 +1,233 @@
+/**
+
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+
+ * remove this comment and start adding your styles to this file.
+
+ */
+
+
+
+/**** General
+
+/****************************************/
+
+
+
+body				{background: url(../img/Page-BgTexture.jpg) 0 0 no-repeat #113C4B; color:#000;}
+
+.page-glare			{width:100%; height:100%; position:absolute; background:url(../img/Page-BgGradient2.png) 0 0 no-repeat;}
+.page-top			{width:100%; height:100%; position:absolute; background:url(../img/Page-BgGlare.png) 0 0 no-repeat;}
+
+#background	{background-repeat:no-repeat; background-position:center -70px; background-size: 100% auto;}
+#background	{position:absolute; width:100%; max-width:100%; top:0; bottom:0;}
+
+a:link				{color:#003040;}
+a:visited			{color:#005977;}
+
+
+
+
+
+
+
+/**** Header
+
+/****************************************/
+
+
+
+/* header top */
+
+.navbar-top-band	{height:20px; max-height:20px; clear:both; background:#216DAB; -moz-border-radius:0 0 10px 10px; -webkit-border-radius:0 0 10px 10px; border-radius:0 0 10px 10px; -khtml-border-radius:0 0 10px 10px;}
+
+
+
+/* navigation */
+
+.navbar-default 	{padding:0; background-color:none; background:none; border-color:none; border:0;}
+.navbar 			{margin-top:0 !important; margin-bottom:0 !important; border-radius:0;}
+.navbar-collapse	{width:100%; clear:both; background:#216DAB; -moz-border-radius:10px 10px 0 0; -webkit-border-radius:10px 10px 0 0; border-radius:10px 10px 0 0; -khtml-border-radius:10px 10px 0 0;}
+
+.navbar-header         	{position: relative; width: 100%;}		/* desired width */
+.navbar-header:before  	{content: ""; display: block; padding-top: 20%;} 	/* aspect ratio of 16:9*/
+.navbar-header-inner   	{position:  absolute; top: 0; left: 0; bottom: 0; right: 0;}
+.navbar-header a img	{display:none;}
+
+.navbar-header .logo				{position:absolute; display:none;}
+.navbar-header .navbar-brand		{position: absolute; top: 30%; right: 10%; font-size: 3em; color: #FFF;}
+
+.navbar-default .navbar-nav > li > a 		{color:#FFF;}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus	{color:#CCC; background:#000;}
+
+.navbar-nav			{position:relative; z-index:10;}
+
+.nav-login			{position:relative;}
+.nav-login-body		{position:relative; clear:both; margin: 2% 0; padding: 1% 0;}
+.region-nav-login	{}
+.region-nav-login .form-type-textfield,
+.region-nav-login .form-type-password				{float:left; width:49.5%; margin:0 0.5% 0 0; padding:0.75%;}
+.region-nav-login .form-type-textfield label,
+.region-nav-login .form-type-password label 		{float:left; width:25%;}
+.region-nav-login .form-type-textfield input,
+.region-nav-login .form-type-password input 		{float:left; width:75%;}
+.region-nav-login ul		{margin:0 auto; padding:0 2%; width:100%; text-align:center;}
+.region-nav-login ul li		{display:inline-block; list-style-type:none; padding:2%;}
+.region-nav-login button	{display:block; margin:0 auto;}		
+
+.on		{display:block;}
+
+
+/**** Side Bar Content Area
+
+/****************************************/
+
+
+.page-widgets .container .row,	
+.page-widget						{padding:0; margin:0 -15px 1%;}
+.page-widget .region .block			{}
+.page-widget .region 				{margin:0; min-height:300px; position:relative; clear:both; background:url(../img/bg-widget.png) 0 0;}
+.page-widget .block-title			{margin:0; padding:4%; background:#777;}
+.page-widget .region p				{padding:2% 4%;}
+.page-widget .region ul				{padding:0;}
+.page-widget .region ul li			{list-style-type:none; margin:0; padding:0;}
+.page-widget .region ul li a		{display:block; padding:2% 4%;}
+.page-widget .region ul li a:hover,
+.page-widget .region ul li a:focus	{background:#F4F4F4;}
+.page-widget .region .more-link		{text-align:right; padding:2% 4%;}
+
+
+.well .container .row,	
+.well						{padding:0; margin:0 -15px 1%; border:0; border-radius:0;} 
+.well .region .block		{}
+.well .region 				{margin:0; min-height:300px; position:relative; clear:both; background:url(../img/bg-widget.png) 0 0;}
+.well .block-title			{margin:0; padding:4%; background:#777;}
+.well .region p				{padding:2% 4%;}
+.well .region ul			{padding:0;}
+.well .region ul li			{list-style-type:none; margin:0; padding:0;}
+.well .region ul li a		{display:block; padding:2% 4%;}
+.well .region ul li a:hover,
+.well .region ul li a:focus	{background:#F4F4F4;}
+.well .region .more-link	{text-align:right; padding:2% 4%;}
+
+
+
+
+/**** Main Content Area
+
+/****************************************/
+
+
+.main-row				{margin:0; background:url(../img/bg-content.png) 0 0;}
+#main-body-section 		{margin:3% 0;}
+.submitted 				{color:#E6E6E6;}
+
+
+
+/**** misc
+
+/****************************************/
+
+.clear			{width:100%; clear:both;}
+
+
+
+/**** Homepage
+
+/****************************************/
+
+
+
+
+
+/* Clubs */
+
+.view-wpba-clubs .view-content .views-row 			{min-height:200px; margin: 0 0 0.5% 0;}
+.view-wpba-clubs .views-field-title					{font-size:1.2em; font-weight:bold; text-align:center; background:#FFF; padding: 1.5% 0;}
+.view-wpba-clubs .views-field-field-club-logo		{width:100%; padding:10px 0 0 0; text-align: center;  background:url(../img/bg-content.png);}
+.views-field-field-club-logo .field-content a img	{max-width:90%; height:auto;}
+.view-wpba-clubs .views-field-field-club-email,
+.view-wpba-clubs .views-field-field-club-website	{font-size:0.75em; text-align:center; background:url(../img/bg-content.png);}
+
+.node-type-leaguesite-club .field-name-field-club-logo {text-align:center;}
+.node-type-leaguesite-club .field-name-field-club-logo img {max-width:90%; height:auto;}
+
+/* Webform Components */
+
+.page-node-105 .form-checkbox,
+.page-node-105 .form-radio 			{float:none !important;}
+
+#webform-component-wpba-personal-info--wpba-dob label		{width:100%; float:left; clear:both;}
+.form-item-submitted-wpba-personal-info-wpba-dob-year,
+.form-item-submitted-wpba-personal-info-wpba-dob-month,
+.form-item-submitted-wpba-personal-info-wpba-dob-day		{width:30%; float:left;}
+#webform-component-wpba-personal-info--wpba-birthplace		{width:100%; float:left; clear:both;}
+
+
+.page-node-1486 .webform-client-form .webform-component-textfield,
+.page-node-1486 .webform-client-form .webform-container-inline,
+.page-node-1486 .webform-client-form .webform-component-managed_file,
+.page-node-1486 .webform-client-form .webform-datepicker 				{clear:both; float:left; width:100%; margin:0 0 5% 0;}
+
+.page-node-1486 .webform-client-form .form-type-checkbox		{display:inline-block; margin:0 5px 5% 0; padding: 0 5px;}
+.page-node-1486 .webform-client-form .form-type-checkbox input	{float:none; margin:0;}
+
+.page-node-1486 .webform-client-form .webform-datepicker form-type-select label			{display:none;}
+
+.page-node-1486 .webform-client-form .webform-component-date .webform-datepicker .form-type-select .year,
+.page-node-1486 .webform-client-form .webform-component-date .webform-datepicker .form-type-select .month,
+.page-node-1486 .webform-client-form .webform-component-date .webform-datepicker .form-type-select .day			{width:30%; float:left;}
+
+.page-node-1486 .webform-client-form .form-checkbox,
+.page-node-1486 .webform-client-form .form-radio 				{float:none !important;}
+
+.page-node-1486 .webform-client-form .webform-component-checkboxes label {width:auto !important; float:none !important;}
+
+.page-node-1486 .webform-client-form .form-item label			{width:40%; float:left; margin-right:0;}
+.page-node-1486 .webform-client-form .form-item .form-text,
+.page-node-1486 .webform-client-form .form-item .form-select	{width:55%; float:left;}
+
+.page-node-1486 .webform-client-form .form-email,
+.page-node-1486 .webform-client-form .form-number {
+display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.428571429;
+color: #555;
+vertical-align: middle;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+/* webform view */
+
+.page-2014teamlists .views-field-first-name			{float:left; padding-right:10px; font-weight:bold; font-size:1.2em;}
+.page-2014teamlists .views-field-surname			{float:left; font-weight:bold; font-size:1.2em;}
+.page-2014teamlists .views-field-new-club			{width:100%; clear:both; text-transform:uppercase; padding:4px 0;}
+.page-2014teamlists .views-row						{border:1px solid #777; min-height:150px;}
+
+
+.view .date-nav-wrapper 		{margin-top: 0;}
+.view .date-nav-wrapper .date-nav	{margin-bottom:0; padding-bottom: 10px;}
+.pager {margin:0;}
+table td.mini, table th.mini, table.mini td.week {    margin: 0;    padding: 2% 0.5%;}
+
+
+
+/* admin styling */
+
+body.toolbar-drawer {
+padding-top: 30px !important;
+
+}
+

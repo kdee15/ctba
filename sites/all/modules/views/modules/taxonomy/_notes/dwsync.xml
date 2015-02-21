@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="views_handler_argument_term_node_tid.inc" server="www.ctba.co.za/public_html/" local="130439519868195168" remote="130439486400000000" Dst="0" />
+<file name="views_handler_argument_taxonomy.inc" server="www.ctba.co.za/public_html/" local="130439519868265172" remote="130439486400000000" Dst="0" />
+<file name="views_handler_argument_term_node_tid_depth_modifier.inc" server="www.ctba.co.za/public_html/" local="130439519870258985" remote="130439486400000000" Dst="0" />
+<file name="views_handler_argument_term_node_tid_depth.inc" server="www.ctba.co.za/public_html/" local="130439519870368994" remote="130439486400000000" Dst="0" />
+<file name="views_handler_argument_vocabulary_machine_name.inc" server="www.ctba.co.za/public_html/" local="130439519872309045" remote="130439486400000000" Dst="0" />
+<file name="views_handler_argument_vocabulary_vid.inc" server="www.ctba.co.za/public_html/" local="130439519872399254" remote="130439486400000000" Dst="0" />
+<file name="views_handler_field_taxonomy.inc" server="www.ctba.co.za/public_html/" local="130439519874336918" remote="130439486400000000" Dst="0" />
+<file name="views_handler_field_term_link_edit.inc" server="www.ctba.co.za/public_html/" local="130439519874426980" remote="130439486400000000" Dst="0" />
+<file name="views_handler_field_term_node_tid.inc" server="www.ctba.co.za/public_html/" local="130439519876547691" remote="130439486400000000" Dst="0" />
+<file name="views_handler_filter_term_node_tid.inc" server="www.ctba.co.za/public_html/" local="130439519877257838" remote="130439486400000000" Dst="0" />
+<file name="views_handler_filter_vocabulary_machine_name.inc" server="www.ctba.co.za/public_html/" local="130439519878993427" remote="130439486400000000" Dst="0" />
+<file name="views_handler_filter_term_node_tid_depth.inc" server="www.ctba.co.za/public_html/" local="130439519879143444" remote="130439486400000000" Dst="0" />
+<file name="views_handler_filter_vocabulary_vid.inc" server="www.ctba.co.za/public_html/" local="130439519881187065" remote="130439486400000000" Dst="0" />
+<file name="views_handler_relationship_node_term_data.inc" server="www.ctba.co.za/public_html/" local="130439519881336940" remote="130439486400000000" Dst="0" />
+<file name="views_plugin_argument_default_taxonomy_tid.inc" server="www.ctba.co.za/public_html/" local="130439519883467178" remote="130439486400000000" Dst="0" />
+<file name="views_plugin_argument_validate_taxonomy_term.inc" server="www.ctba.co.za/public_html/" local="130439519913265755" remote="130439486400000000" Dst="0" />
+</dwsync>

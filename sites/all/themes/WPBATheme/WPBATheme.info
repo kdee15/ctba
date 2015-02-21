@@ -1,0 +1,16 @@
+; $Id: WPBATheme.info $
+name = WPBATheme
+description = Artisteer-generated theme
+screenshot = screenshot.png
+version = 1.0
+core = 6.x
+engine = phptemplate
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[HeaderSearch] = HeaderSearch
+regions[Login] = Login
+regions[LeftBar] = LeftBar
+regions[RightBar] = RightBar
+
+stylesheets[all][] = style.css
