@@ -240,7 +240,7 @@ padding-top: 30px !important;
 
 .page-node-add-leaguesite-players .form-item-title label::before {
     
-    content: 'ID/Passport *'; 
+    content: 'Display Name (e.g. Mandela, Nelson) *'; 
     font-size: 14px;
     
 }

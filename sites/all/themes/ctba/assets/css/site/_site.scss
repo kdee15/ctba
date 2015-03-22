@@ -33,13 +33,19 @@
 // in any context.
 
     // 1.1. Variables
-    @import	"_1-1-object--variables";
+    @import	"_1.1-object--variables";
 
     // 1.2. Animations
-    @import	"_1-2-object--mixins";
+    @import	"_1.2-object--mixins";
 
-    // 1.5. Typography
-    @import	"_1-3-object--typography";
+    // 1.3. Typography
+    @import	"_1.3-object--typography";
+
+    // 1.4. Navigation
+    @import	"_1.4-object--navigation";
+
+    // 1.5. Grid
+    @import	"_1.5-object--grid";
 
 // 1. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -54,13 +60,13 @@
 // up any given page.
 
     // 2.1. Masthead
-    @import	"_2-1-section--masthead";
+    @import	"_2.1-section--masthead";
 
     // 2.2. Mast
-    @import	"_2-2-section--mast";
+    @import	"_2.2-section--mast";
 
     // 2.3. Footend
-    @import	"_2-3-section--footend";
+    @import	"_2.3-section--footend";
 
 // 2. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -74,7 +80,10 @@
 // These files should almost be empty!
 
     // 3.1. Homepage
-    @import	"_3-1-page--homepage";
+    @import	"_3.1-page--home";
+
+    // 3.2. CTBA News
+    @import	"_3.2-page--blog";
 
 // 3. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

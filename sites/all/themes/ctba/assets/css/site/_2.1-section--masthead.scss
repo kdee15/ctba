@@ -8,13 +8,54 @@
 
         // A.1.1. MINOR SECTION
 
-            // A.1.1.1. Small Section
+        .top-band {
 
+            width: 100%;
+            height: $baseline;
+            border-radius: 0px 0px 10px 10px;
+            background: $ct-blue;
+
+        }
+            // A.1.1.1. Small Section
+    
         // A.1.1. END
+    
+        // A.1.2. logo section
+    
+        .section-logo {
+            
+            @include aspect-ratio (100%, 20%);
+            
+            .logo-link {
+                
+                @include absolute (10%);
+                
+                img {
+                    
+                    height: 100%;
+                    width: auto;
+                    float: right;
+                    
+                }
+            }
+        }
+    
+        // A.1.2. END
 
 
     // A.1. END -------------------------------------------------------------------------------------------------------
 
+}
+
+#top {
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-size: 100% auto;
+    z-index: -1;
+    
 }
 
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

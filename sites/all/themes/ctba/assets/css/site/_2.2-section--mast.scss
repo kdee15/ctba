@@ -5,14 +5,25 @@
 #mast {
 
     // A.1. MAJOR SECTION ---------------------------------------------------------------------------------------------
+    
+    .container {
+        
+        background: url('../images/bg-content.png');
+        
+        .page {
+            
+            padding: $baseline;
 
-        // A.1.1. MINOR SECTION
-
-            // A.1.1.1. Small Section
-
-        // A.1.1. END
+            // A.1.1. MINOR SECTION
 
 
+
+                // A.1.1.1. Small Section
+
+            // A.1.1. END
+        
+        }
+    }
     // A.1. END -------------------------------------------------------------------------------------------------------
 
 }

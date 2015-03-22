@@ -1,17 +1,34 @@
-name = CTBA theme
-description = website theme
-package = Core
-version = VERSION
+name = CTBA 2015 site theme
+description = ctba.co.za website theme
 core = 7.x
+version = VERSION
 
-stylesheets[all][] = assets/css/stylesheet.css
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
 
-regions[block_header] = Header
-regions[block_page_top] = Page top
-regions[block_page_bottom] = Page bottom
-regions[content] = Content
-regions[block_homepage] = Homepage
-regions[block_sidebar] = Sidebar
-regions[block_footer] = Footer
 
-settings[shortcut_module_link] = 0
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[search]         = 'Search'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = assets/css/Stylesheet.css
+
+
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+
+
+scripts[] = assets/js/app.js
