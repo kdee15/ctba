@@ -1923,6 +1923,23 @@ h1 {
           box-shadow: 0px 2px 5px #000;
   padding: 0 !important;
   display: block;
+  position: relative;
+}
+.card .card__header .club__logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.card .card__header .club__logo .club__logo-image {
+  width: 100%;
+  height: auto;
+}
+.card .card__header .club__logo-image img {
+  width: 100%;
+  height: auto;
 }
 .card .card__body {
   padding: 24px 0;

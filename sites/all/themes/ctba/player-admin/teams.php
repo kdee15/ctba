@@ -21,13 +21,27 @@
         
         <section class="page-body">
             
-            <aside class="filter team__filter">
+            <aside class="filter grid team__filter">
 
-                <div class="field-item text">
+                <div class="field-item text grid__quarter">
                     <label for="team">filter by</label>
                     <select type="text" id="team" name="team">
                         <option>Club</option>
                         <option>League</option>
+                    </select>
+                </div>
+                
+                <div class="field-item text grid__quarter">
+                    <label for="team">filter by</label>
+                    <select type="text" id="team" name="team">
+                        <option>club name</option>
+                        <option>club name</option>
+                        <option>club name</option>
+                        <option>club name</option>
+                        <option>club name</option>
+                        <option>club name</option>
+                        <option>club name</option>
+                        <option>club name</option>
                     </select>
                 </div>
                 

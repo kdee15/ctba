@@ -9,6 +9,31 @@
     box-shadow: 0px 2px 5px $black;
     padding: 0 !important;
     display: block;
+    position: relative;
+    
+    .card__header {
+        
+        .club__logo {
+            
+            @include absolute (0);
+            overflow: hidden;
+            
+            .club__logo-image {
+                
+                width: 100%;
+                height: auto;
+                
+            }
+        }
+        
+        .club__logo-image {
+            
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
     
     .card__body {
         
