@@ -2,9 +2,8 @@
 
 	<div class="container">
 
-		<?php print render($page['footer']); ?>
+        <p>FOOTER</p>
 
 	</div>
 
 </footer>
-</html>
