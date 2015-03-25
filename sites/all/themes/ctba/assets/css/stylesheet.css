@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * If you are building a non-responsive site but would still like to use
  * csswizardry-grids, set this to ‘false’:
@@ -1945,6 +1946,10 @@ h1 {
   padding: 12px;
 }
 
+.field-item {
+  margin-bottom: 12px;
+}
+
 #masthead .top-band {
   width: 100%;
   height: 24px;
@@ -1987,6 +1992,12 @@ h1 {
 }
 #mast .container .page {
   padding: 24px;
+}
+#mast .container .page-body {
+  padding: 24px;
+}
+#mast .container .page-body .filter {
+  margin-bottom: 24px;
 }
 
 body {

@@ -3,7 +3,7 @@
 <body>
 <!-- C. Main Content -->
 
-<section id="mast" class="page__leagues">
+<section id="mast" class="form page__teams">
 
     <div class="container">
     
@@ -23,8 +23,18 @@
         <section class="page-body">
         
             <div class="field-item text">
+                <label for="club-name">Club Name</label>
+                <input type="text" id="club-name" placeholder="club name" name="club-name">
+            </div>
+            
+            <div class="field-item text">
+                <label for="team-name">Team Name</label>
+                <input type="text" id="team-name" placeholder="team name" name="team-name">
+            </div>
+        
+            <div class="field-item text">
                 <label for="league-name">League Name</label>
-                <input type="text" id="league-name" placeholder="John" name="league-name">
+                <input type="text" id="league-name" placeholder="league name" name="league-name">
             </div>
         
             <a href="main.php" class="button">SUBMIT</a>

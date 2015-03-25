@@ -3,7 +3,7 @@
 <body>
 <!-- C. Main Content -->
 
-<section id="mast" class="page__leagues">
+<section id="mast" class="form page__leagues">
 
     <div class="container">
     
