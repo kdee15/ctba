@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /**
  * If you are building a non-responsive site but would still like to use
  * csswizardry-grids, set this to ‘false’:
@@ -54,7 +53,7 @@
  * 2. Remove any margins and paddings that might affect the grid system.
  * 3. Apply a negative `margin-left` to negate the columns’ gutters.
  */
-.grid, .page-blog #block-system-main {
+.grid {
   list-style: none;
   /* [1] */
   margin: 0;
@@ -68,8 +67,7 @@
 
 /* Opera hack */
 .opera:-o-prefocus,
-.grid,
-.page-blog #block-system-main {
+.grid {
   word-spacing: -0.43em;
 }
 
@@ -80,7 +78,7 @@
  * 4. Full-width unless told to behave otherwise.
  * 5. Required to combine fluid widths and fixed gutters.
  */
-.grid__item, .grid .grid__half, .page-blog #block-system-main .grid__half, .grid .grid__third, .page-blog #block-system-main .grid__third, .grid .grid__quarter, .page-blog #block-system-main .grid__quarter, .page-blog #block-system-main .content .node-blog {
+.grid__item, .grid .grid__half, .grid .grid__third, .grid .grid__quarter {
   display: inline-block;
   /* [1] */
   padding-left: 20px;
@@ -106,7 +104,7 @@
   direction: rtl;
   text-align: left;
 }
-.grid--rev > .grid__item, .grid .grid--rev > .grid__half, .page-blog #block-system-main .grid--rev > .grid__half, .grid .grid--rev > .grid__third, .page-blog #block-system-main .grid--rev > .grid__third, .grid .grid--rev > .grid__quarter, .page-blog #block-system-main .grid--rev > .grid__quarter, .page-blog #block-system-main .content .grid--rev > .node-blog {
+.grid--rev > .grid__item, .grid .grid--rev > .grid__half, .grid .grid--rev > .grid__third, .grid .grid--rev > .grid__quarter {
   direction: ltr;
   text-align: left;
 }
@@ -118,7 +116,7 @@
 .grid--full {
   margin-left: 0;
 }
-.grid--full > .grid__item, .grid .grid--full > .grid__half, .page-blog #block-system-main .grid--full > .grid__half, .grid .grid--full > .grid__third, .page-blog #block-system-main .grid--full > .grid__third, .grid .grid--full > .grid__quarter, .page-blog #block-system-main .grid--full > .grid__quarter, .page-blog #block-system-main .content .grid--full > .node-blog {
+.grid--full > .grid__item, .grid .grid--full > .grid__half, .grid .grid--full > .grid__third, .grid .grid--full > .grid__quarter {
   padding-left: 0;
 }
 
@@ -128,7 +126,7 @@
 .grid--right {
   text-align: right;
 }
-.grid--right > .grid__item, .grid .grid--right > .grid__half, .page-blog #block-system-main .grid--right > .grid__half, .grid .grid--right > .grid__third, .page-blog #block-system-main .grid--right > .grid__third, .grid .grid--right > .grid__quarter, .page-blog #block-system-main .grid--right > .grid__quarter, .page-blog #block-system-main .content .grid--right > .node-blog {
+.grid--right > .grid__item, .grid .grid--right > .grid__half, .grid .grid--right > .grid__third, .grid .grid--right > .grid__quarter {
   text-align: left;
 }
 
@@ -139,7 +137,7 @@
 .grid--center {
   text-align: center;
 }
-.grid--center > .grid__item, .grid .grid--center > .grid__half, .page-blog #block-system-main .grid--center > .grid__half, .grid .grid--center > .grid__third, .page-blog #block-system-main .grid--center > .grid__third, .grid .grid--center > .grid__quarter, .page-blog #block-system-main .grid--center > .grid__quarter, .page-blog #block-system-main .content .grid--center > .node-blog {
+.grid--center > .grid__item, .grid .grid--center > .grid__half, .grid .grid--center > .grid__third, .grid .grid--center > .grid__quarter {
   text-align: left;
 }
 
@@ -147,11 +145,11 @@
  * Align grid cells vertically (`.grid--middle` or `.grid--bottom`). Extends
  * `.grid`.
  */
-.grid--middle > .grid__item, .grid .grid--middle > .grid__half, .page-blog #block-system-main .grid--middle > .grid__half, .grid .grid--middle > .grid__third, .page-blog #block-system-main .grid--middle > .grid__third, .grid .grid--middle > .grid__quarter, .page-blog #block-system-main .grid--middle > .grid__quarter, .page-blog #block-system-main .content .grid--middle > .node-blog {
+.grid--middle > .grid__item, .grid .grid--middle > .grid__half, .grid .grid--middle > .grid__third, .grid .grid--middle > .grid__quarter {
   vertical-align: middle;
 }
 
-.grid--bottom > .grid__item, .grid .grid--bottom > .grid__half, .page-blog #block-system-main .grid--bottom > .grid__half, .grid .grid--bottom > .grid__third, .page-blog #block-system-main .grid--bottom > .grid__third, .grid .grid--bottom > .grid__quarter, .page-blog #block-system-main .grid--bottom > .grid__quarter, .page-blog #block-system-main .content .grid--bottom > .node-blog {
+.grid--bottom > .grid__item, .grid .grid--bottom > .grid__half, .grid .grid--bottom > .grid__third, .grid .grid--bottom > .grid__quarter {
   vertical-align: bottom;
 }
 
@@ -161,7 +159,7 @@
 .grid--narrow {
   margin-left: -10px;
 }
-.grid--narrow > .grid__item, .grid .grid--narrow > .grid__half, .page-blog #block-system-main .grid--narrow > .grid__half, .grid .grid--narrow > .grid__third, .page-blog #block-system-main .grid--narrow > .grid__third, .grid .grid--narrow > .grid__quarter, .page-blog #block-system-main .grid--narrow > .grid__quarter, .page-blog #block-system-main .content .grid--narrow > .node-blog {
+.grid--narrow > .grid__item, .grid .grid--narrow > .grid__half, .grid .grid--narrow > .grid__third, .grid .grid--narrow > .grid__quarter {
   padding-left: 10px;
 }
 
@@ -171,7 +169,7 @@
 .grid--wide {
   margin-left: -40px;
 }
-.grid--wide > .grid__item, .grid .grid--wide > .grid__half, .page-blog #block-system-main .grid--wide > .grid__half, .grid .grid--wide > .grid__third, .page-blog #block-system-main .grid--wide > .grid__third, .grid .grid--wide > .grid__quarter, .page-blog #block-system-main .grid--wide > .grid__quarter, .page-blog #block-system-main .content .grid--wide > .node-blog {
+.grid--wide > .grid__item, .grid .grid--wide > .grid__half, .grid .grid--wide > .grid__third, .grid .grid--wide > .grid__quarter {
   padding-left: 40px;
 }
 
@@ -187,21 +185,21 @@
 /**
  * Whole
  */
-.one-whole, .page-blog #block-system-main .content .node-blog {
+.one-whole {
   width: 100%;
 }
 
 /**
  * Halves
  */
-.one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths, .grid .grid__half, .page-blog #block-system-main .grid__half {
+.one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths, .grid .grid__half {
   width: 50%;
 }
 
 /**
  * Thirds
  */
-.one-third, .two-sixths, .four-twelfths, .grid .grid__third, .page-blog #block-system-main .grid__third {
+.one-third, .two-sixths, .four-twelfths, .grid .grid__third {
   width: 33.333%;
 }
 
@@ -212,7 +210,7 @@
 /**
  * Quarters
  */
-.one-quarter, .two-eighths, .three-twelfths, .grid .grid__quarter, .page-blog #block-system-main .grid__quarter {
+.one-quarter, .two-eighths, .three-twelfths, .grid .grid__quarter {
   width: 25%;
 }
 
@@ -314,7 +312,7 @@
   /**
    * Whole
    */
-  .mobile--one-whole, .grid .grid__half, .page-blog #block-system-main .grid__half, .grid .grid__third, .page-blog #block-system-main .grid__third, .grid .grid__quarter, .page-blog #block-system-main .grid__quarter {
+  .mobile--one-whole, .grid .grid__half, .grid .grid__third, .grid .grid__quarter {
     width: 100%;
   }
 
@@ -1967,6 +1965,38 @@ h1 {
   margin-bottom: 12px;
 }
 
+table {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  margin-bottom: 12px;
+  border-spacing: 2px;
+  border-collapse: separate;
+}
+table th {
+  border: 0;
+  padding: 6px;
+  background: #113C4B;
+  color: #fff;
+}
+table td {
+  border: 0;
+  padding: 6px;
+  background: url("../images/bg-content.png");
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.icon img, .icon svg {
+  width: 100%;
+  height: 100%;
+}
+.icon img path, .icon svg path {
+  fill: #fff;
+}
+
 #masthead .top-band {
   width: 100%;
   height: 24px;
@@ -2021,22 +2051,6 @@ body {
   background: url("../images/Page-BgTexture.jpg") no-repeat top center #113C4B;
 }
 
-.page-blog #block-system-main {
-  margin-left: 0 !important;
-}
-.page-blog #block-system-main .content .node-blog {
-  padding-left: 0 !important;
-  margin-bottom: 12px;
-}
-.page-blog #block-system-main .content .node-blog h2, .page-blog #block-system-main .content .node-blog div {
-  margin: 0 6px;
-  padding: 12px;
-  background: url("../images/bg-content.png");
-}
-.page-blog #block-system-main .content .node-blog h2 a, .page-blog #block-system-main .content .node-blog div a {
-  color: #000;
-  text-decoration: underline;
-}
-.page-blog #block-system-main .content .node-blog h2 a:hover, .page-blog #block-system-main .content .node-blog div a:hover {
-  color: #fff;
+.page__players .icon {
+  display: inline-block;
 }

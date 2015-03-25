@@ -2,42 +2,12 @@
 
 // A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.page-blog {
+.page__players {
     
-    #block-system-main {
+    .icon {
         
-        @extend .grid;
-        margin-left: 0!important;
+        display: inline-block;
         
-        .content {
-            
-            .node-blog {
-                
-                @extend .grid__item;
-                @extend .one-whole;
-                padding-left: 0!important;
-                margin-bottom: $baseline-small;
-                
-                h2, div {
-                    
-                    margin: 0 $baseline-smaller;
-                    padding: $baseline-small;
-                    background: url('../images/bg-content.png');
-                    
-                    a {
-                        
-                        color: $black;   
-                        text-decoration: underline;
-                        
-                        &:hover {
-                            
-                            color: $white;   
-                            
-                        }
-                    }
-                }
-            }
-        }
     }
 }
 

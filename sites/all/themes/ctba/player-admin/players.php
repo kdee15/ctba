@@ -64,8 +64,7 @@
                     <th class="header">Member No.</th>
                     <th class="header">ID/Passport</th>
                     <th class="header">D.O.B.</th>
-                    <th class="header">Photo</th>
-                    <th class="header">ID Doc</th>
+                    <th class="header">Docs</th>
                     <th class="header"></th>
                 
                 </tr>
@@ -78,37 +77,14 @@
                     <td>00000</td>
                     <td>0000000000000</td>
                     <td>YYYY/MM/DD</td>
-                    <td>[]</td>
-                    <td>[]</td>
-                    <td>1</td>
-                
-                </tr>
-                                  
-                <tr>
-                
-                    <td>1</td>
-                    <td>Kirk</td>
-                    <td>Daniels</td>
-                    <td>00000</td>
-                    <td>0000000000000</td>
-                    <td>YYYY/MM/DD</td>
-                    <td>[]</td>
-                    <td>[]</td>
-                    <td>1</td>
-                
-                </tr>
-                                  
-                <tr>
-                
-                    <td>1</td>
-                    <td>Kirk</td>
-                    <td>Daniels</td>
-                    <td>00000</td>
-                    <td>0000000000000</td>
-                    <td>YYYY/MM/DD</td>
-                    <td>[]</td>
-                    <td>[]</td>
-                    <td>1</td>
+                    <td>
+                        <a class="icon"><img src="../assets/images/svg/ct-photo.svg"/></a>
+                        <a class="icon"><img src="../assets/images/svg/ct-doc.svg"/></a>
+                    </td>
+                    <td>
+                        <a class="icon"><img src="../assets/images/svg/ct-edit.svg"/></a>
+                        <a class="icon"><img src="../assets/images/svg/ct-delete.svg"/></a>
+                    </td>
                 
                 </tr>
             
