@@ -19,6 +19,8 @@
             
         </section>
         
+        <section class="page-body">
+        
             <ul class="list">
         
                 <li><a href="leagues.php"><span>Leagues</span></a></li>
@@ -27,6 +29,8 @@
                 <li><a href="players.php"><span>Players</span></a></li>
         
             </ul>
+            
+        </section>
         
     </div>
 

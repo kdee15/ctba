@@ -19,9 +19,23 @@
             
         </section>
         
+        <section class="page-body">
+            
+            <aside class="filter team__filter">
+
+                <div class="field-item text">
+                    <label for="team">filter by</label>
+                    <select type="text" id="team" name="team">
+                        <option>Club</option>
+                        <option>League</option>
+                    </select>
+                </div>
+                
+            </aside>
+        
             <ul class="list grid">
         
-                <li class="grid__quarter">
+                <li class="grid__third">
                     <article class="card" href="leagues.php">
                         <div class="card__header"><img src="" /></div>
                         <div class="card__body">
@@ -31,10 +45,10 @@
                         <div class="card__footer">
                             <ul class="list grid">
                                 <li class="grid__third">
-                                    <a href="league__edit.php"><span>Edit</span></a>
+                                    <a href="team__edit.php"><span>Edit</span></a>
                                 </li>
                                 <li class="grid__third">
-                                    <a href=""><span>Players</span></a>
+                                    <a href="players.php"><span>Players</span></a>
                                 </li>
                                 <li class="grid__third">
                                     <a href=""><span>Delete</span></a>
@@ -45,6 +59,8 @@
                 </li>
         
             </ul>
+            
+        </section>
         
     </div>
 

@@ -13,20 +13,43 @@
         
             <ul class="list navigation">
         
-                <li><a href="#"><span>Add Club</span></a></li>
+                <li><a href="club__add.php"><span>Add Club</span></a></li>
 
             </ul>
             
         </section>
+        
+        <section class="page-body">
 
-        <ul class="list">
+            <ul class="list grid">
 
-            <li><a href="leagues.php"><span>Leagues</span></a></li>
-            <li><a href="clubs.php"><span>Clubs</span></a></li>
-            <li><a href="teams.php"><span>Teams</span></a></li>
-            <li><a href="players.php"><span>Players</span></a></li>
+                <li class="grid__third">
+                    <article class="card">
+                        <div class="card__header">
+                            <a href="club__view.php"><img src="http://placehold.it/300x150" /></a>
+                        </div>
+                        <div class="card__body">
+                            <h4>Flames</h4>
+                        </div>
+                        <div class="card__footer">
+                            <ul class="list grid">
+                                <li class="grid__third">
+                                    <a href="club__edit.php"><span>Edit</span></a>
+                                </li>
+                                <li class="grid__third">
+                                    <a href="teams.php"><span>Teams</span></a>
+                                </li>
+                                <li class="grid__third">
+                                    <a href=""><span>Delete</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </li>
 
-        </ul>
+            </ul>
+            
+        </section>
         
     </div>
 
