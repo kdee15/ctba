@@ -1,41 +1,27 @@
-// 1. OBJECT [ 1.7. TABLES]  ######################################################################################
+// 1. OBJECT [ 1.3. BSE ]  ########################################################################################
 
 // A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// A.1. GRID TYPES ------------------------------------------------------------------------------------------------
+// A.1. SHOW HIDE TOGGLE DIV --------------------------------------------------------------------------------------
 
-table {
+.div-toggle,
+.div-hover {
     
-    padding: 0;
-    margin: 0;
-    border: 0;
-    margin-bottom: $baseline-small;
-    border-spacing: 2px;
-    border-collapse: separate;
+    cursor: pointer;
     
-    th {
+}
+
+.toggle-content,
+.hover-content {
+    
+    display: none;
+    
+    &.on {
         
-        border: 0;
-        padding: $baseline-smaller;
-        background: $ct-teal;
-        color: $white;
+        display: block !important;   
         
     }
     
-    td {
-        
-        position: relative;
-        border: 0;
-        padding: $baseline-smaller;
-        background: url('../images/bg-content.png');
-        
-    }
-    
-    .td__icon {
-        
-        background: none;   
-        
-    }
 }
 
 // A.1. END -------------------------------------------------------------------------------------------------------

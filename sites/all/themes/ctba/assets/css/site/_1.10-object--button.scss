@@ -1,41 +1,17 @@
-// 1. OBJECT [ 1.7. TABLES]  ######################################################################################
+// 1. OBJECT [ 1.10. BUTTONS]  ####################################################################################
 
 // A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // A.1. GRID TYPES ------------------------------------------------------------------------------------------------
 
-table {
-    
-    padding: 0;
-    margin: 0;
-    border: 0;
-    margin-bottom: $baseline-small;
-    border-spacing: 2px;
-    border-collapse: separate;
-    
-    th {
-        
-        border: 0;
-        padding: $baseline-smaller;
-        background: $ct-teal;
-        color: $white;
-        
-    }
-    
-    td {
-        
-        position: relative;
-        border: 0;
-        padding: $baseline-smaller;
-        background: url('../images/bg-content.png');
-        
-    }
-    
-    .td__icon {
-        
-        background: none;   
-        
-    }
+.button {
+
+    background: $ct-teal !important;
+    display: inline-block;
+    padding: $baseline-small $baseline !important;
+    color: $white;
+    font-weight: bold;
+
 }
 
 // A.1. END -------------------------------------------------------------------------------------------------------

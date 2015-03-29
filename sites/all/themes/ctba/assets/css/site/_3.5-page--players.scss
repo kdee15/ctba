@@ -9,6 +9,50 @@
         display: inline-block;
         
     }
+    
+    .player__team {
+        
+        position: relative;
+        
+        .toggle-content {
+            
+            @include absolute(0);
+            background: $white;
+            
+            
+        }
+    }
+    
+    .player__docs {
+        
+        .icon {
+
+            position: relative;
+            z-index: 1;
+
+        }
+    
+        .player-photo {
+
+            display: none;
+            background: $white;
+            @include absolute(0);
+            z-index: 100;
+
+            .div-toggle,
+            .div-hover {
+
+                color: $black;
+
+                img {
+
+                    width: 100%;
+                    height: auto;
+
+                }
+            }
+        }
+    }
 }
 
     // A.1. MAJOR SECTION ---------------------------------------------------------------------------------------------

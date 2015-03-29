@@ -13,7 +13,7 @@
         
             <ul class="list navigation">
         
-                <li><a href="#"><span>Add Team</span></a></li>
+                <li><a class="button" href="team__add.php"><span>Add Team</span></a></li>
 
             </ul>
             
@@ -24,24 +24,31 @@
             <aside class="filter grid team__filter">
 
                 <div class="field-item text grid__quarter">
-                    <label for="team">filter by</label>
+                    <label for="team">filter by Club</label>
                     <select type="text" id="team" name="team">
-                        <option>Club</option>
-                        <option>League</option>
+                        <option>Club Name</option>
+                        <option>Club Name</option>
+                        <option>Club Name</option>
+                        <option>Club Name</option>
+                        <option>Club Name</option>
+                        <option>Club Name</option>
+                        <option>Club Name</option>
                     </select>
                 </div>
                 
                 <div class="field-item text grid__quarter">
-                    <label for="team">filter by</label>
+                    <label for="team">filter by League</label>
                     <select type="text" id="team" name="team">
-                        <option>club name</option>
-                        <option>club name</option>
-                        <option>club name</option>
-                        <option>club name</option>
-                        <option>club name</option>
-                        <option>club name</option>
-                        <option>club name</option>
-                        <option>club name</option>
+                        <option>MSL</option>
+                        <option>M1</option>
+                        <option>M2</option>
+                        <option>LSL</option>
+                        <option>L1</option>
+                        <option>L2</option>
+                        <option>BU18</option>
+                        <option>GU18</option>
+                        <option>BU16</option>
+                        <option>GU16</option>
                     </select>
                 </div>
                 

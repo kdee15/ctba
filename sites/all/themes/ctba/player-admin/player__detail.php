@@ -9,12 +9,12 @@
     
         <section class="page-header">
         
-            <h1>Add Club</h1>
+            <h1>Edit Player</h1>
         
             <ul class="list navigation">
         
-                <li><a class="button" href="clubs.php"><span>back</span></a></li>
-                <li><a class="button" href="club__add.php"><span>Add Club</span></a></li>
+                <li><a class="button" href="players.php"><span>back</span></a></li>
+                <li><a class="button" href="player__add.php"><span>Add Player</span></a></li>
 
             </ul>
             
@@ -25,32 +25,32 @@
             <form class="form inline">
 
                 <div class="field-item text">
-                    <label for="club-name">Club Name</label>
+                    <label for="club-name">Player Name</label>
                     <input type="text" id="club-name" placeholder="club name" name="club-name">
                 </div>
 
                 <div class="field-item text">
-                    <label for="club-name">Club Contact</label>
+                    <label for="club-name">Player Surname</label>
                     <input type="text" id="club-name" placeholder="e.g. John Handy" name="club-name">
                 </div>
 
                 <div class="field-item text">
-                    <label for="club-name">Club Tel</label>
+                    <label for="club-name">Player Tel</label>
                     <input type="text" id="club-name" placeholder="e.g. 080 000 000" name="club-name">
                 </div>
 
                 <div class="field-item text">
-                    <label for="club-name">Club Fax</label>
+                    <label for="club-name">Player Fax</label>
                     <input type="text" id="club-name" placeholder="e.g. 086 000 000" name="club-name">
                 </div>
 
                 <div class="field-item text">
-                    <label for="club-name">Club Email</label>
+                    <label for="club-name">Player Email</label>
                     <input type="text" id="club-name" placeholder="e.g. info@clubname.co.za" name="club-name">
                 </div>
 
                 <div class="field-item text">
-                    <label for="club-name">Club Address</label>
+                    <label for="club-name">Player Address</label>
                     <input type="text" id="club-name" placeholder="e.g. Street" name="club-name">
                     <input type="text" id="club-name" placeholder="e.g. Suburb" name="club-name">
                     <input type="text" id="club-name" placeholder="e.g. Town" name="club-name">
@@ -58,12 +58,12 @@
                 </div>
 
                 <div class="field-item text">
-                    <label for="club-name">Club Colours - home</label>
+                    <label for="club-name">Player ID/Passport</label>
                     <input type="text" id="club-name" placeholder="e.g. blue and white" name="club-name">
                 </div>
 
                 <div class="field-item text">
-                    <label for="club-name">Club Colours - away</label>
+                    <label for="club-name">Player Date of Birth</label>
                     <input type="text" id="club-name" placeholder="e.g. white and green" name="club-name">
                 </div>
 

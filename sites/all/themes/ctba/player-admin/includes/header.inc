@@ -3,11 +3,11 @@
 <header id="masthead">
 	<div class="container">
     <div class="top-band"></div>
-        <ul class="list header__nav">
-        
-            <li><a href="main.php"><span>Home</span></a></li>
-            <li><a href="index.php"><span>logout</span></a></li>
-        
-        </ul>
+        <section class="list header__nav">
+            <ul class="list">
+                <li><a class="button" href="main.php"><span>Home</span></a></li>
+                <li><a class="button" href="index.php"><span>logout</span></a></li>
+            </ul>
+        </section>
 	</div>
 </header>

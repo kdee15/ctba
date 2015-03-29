@@ -3,7 +3,7 @@
 <body>
 <!-- C. Main Content -->
 
-<section id="mast" class="form page__clubs">
+<section id="mast" class="page__clubs">
 
     <div class="container">
     
@@ -13,7 +13,7 @@
         
             <ul class="list navigation">
         
-                <li><a href="club__add.php"><span>Add Club</span></a></li>
+                <li><a class="button" href="club__add.php"><span>Add Club</span></a></li>
 
             </ul>
             

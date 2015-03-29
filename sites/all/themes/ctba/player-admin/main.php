@@ -10,12 +10,6 @@
         <section class="page-header">
         
             <h1>Welcome</h1>
-        
-            <ul class="list navigation">
-        
-                <li><a href="main.php"><span>Home</span></a></li>
-
-            </ul>
             
         </section>
         

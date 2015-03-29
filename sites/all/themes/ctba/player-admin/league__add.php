@@ -13,21 +13,25 @@
         
             <ul class="list navigation">
         
-                <li><a href="leagues.php"><span>back</span></a></li>
-                <li><a href="league__add.php"><span>Add League</span></a></li>
+                <li><a class="button" href="leagues.php"><span>back</span></a></li>
+                <li><a class="button" href="league__add.php"><span>Add League</span></a></li>
 
             </ul>
             
         </section>
         
         <section class="page-body">
+            
+            <form class="form inline">
         
-            <div class="field-item text">
-                <label for="league-name">League Name</label>
-                <input type="text" id="league-name" placeholder="John" name="league-name">
-            </div>
-        
-            <a href="main.php" class="button">SUBMIT</a>
+                <div class="field-item text">
+                    <label for="league-name">League Name</label>
+                    <input type="text" id="league-name" placeholder="John" name="league-name">
+                </div>
+
+                <a href="main.php" class="button">SUBMIT</a>
+            
+            </form>
             
         </section>
         

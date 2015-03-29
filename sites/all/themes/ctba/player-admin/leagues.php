@@ -13,7 +13,7 @@
         
             <ul class="list navigation">
         
-                <li><a href="league__add.php"><span>Add League</span></a></li>
+                <li><a class="button" href="league__add.php"><span>Add League</span></a></li>
 
             </ul>
             

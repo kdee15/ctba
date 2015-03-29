@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * If you are building a non-responsive site but would still like to use
  * csswizardry-grids, set this to ‘false’:
@@ -1818,6 +1819,20 @@ h1 {
   margin-top: 0;
 }
 
+.div-toggle,
+.div-hover {
+  cursor: pointer;
+}
+
+.toggle-content,
+.hover-content {
+  display: none;
+}
+.toggle-content.on,
+.hover-content.on {
+  display: block !important;
+}
+
 .mobi-reveal {
   position: absolute;
   top: 12px;
@@ -1980,9 +1995,13 @@ table th {
   color: #fff;
 }
 table td {
+  position: relative;
   border: 0;
   padding: 6px;
   background: url("../images/bg-content.png");
+}
+table .td__icon {
+  background: none;
 }
 
 .icon {
@@ -1995,6 +2014,14 @@ table td {
 }
 .icon img path, .icon svg path {
   fill: #fff;
+}
+
+.button {
+  background: #113C4B !important;
+  display: inline-block;
+  padding: 12px 24px !important;
+  color: #fff;
+  font-weight: bold;
 }
 
 #masthead .top-band {
@@ -2024,6 +2051,29 @@ table td {
   width: auto;
   float: right;
 }
+#masthead .header__nav {
+  position: relative;
+  width: 100%;
+}
+#masthead .header__nav:before {
+  content: "";
+  display: block;
+  padding-top: 15%;
+}
+#masthead .header__nav ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+}
 
 #top {
   position: absolute;
@@ -2036,6 +2086,7 @@ table td {
 
 #mast .container {
   background: url("../images/bg-content.png");
+  border-radius: 10px 10px 0 0;
 }
 #mast .container .page {
   padding: 24px;
@@ -2053,4 +2104,38 @@ body {
 
 .page__players .icon {
   display: inline-block;
+}
+.page__players .player__team {
+  position: relative;
+}
+.page__players .player__team .toggle-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+}
+.page__players .player__docs .icon {
+  position: relative;
+  z-index: 1;
+}
+.page__players .player__docs .player-photo {
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+.page__players .player__docs .player-photo .div-toggle,
+.page__players .player__docs .player-photo .div-hover {
+  color: #000;
+}
+.page__players .player__docs .player-photo .div-toggle img,
+.page__players .player__docs .player-photo .div-hover img {
+  width: 100%;
+  height: auto;
 }
