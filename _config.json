@@ -1,0 +1,25 @@
+{
+  "root": "",
+  "dist": {
+    "js": {
+      "components": {
+        "bower": [
+          "owl.carousel/dist/owl.carousel.js",
+          "swiper/dist/js/swiper.js"
+        ],
+        "order": [
+          "owl.carousel.js",
+          "swiper.js"
+        ],
+        "maps": [
+        ]
+      }
+    },
+    "css": {
+      "libraries": [
+        "normalize.css/normalize.css",
+        "swiper/dist/css/swiper.min.css"
+      ]
+    }
+  }
+}
