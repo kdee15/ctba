@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0c1d2e-3237-4240-ac47-0710bdf203f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/js/scripts/1.9--text-functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/03_organism/_3.6-o-widgets.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/scripts/1.3--global-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/scripts/1.3--global-functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/scripts/1.8--image-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/scripts/1.8--image-functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/00_base/_0.1-b-custom-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/00_base/_0.1-b-custom-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/03_organism/_0.0-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/03_organism/_0.0-index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/03_organism/_3.0.0-o-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/03_organism/_3.0.0-o-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/background/bg-main0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/page-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/page-header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/svg--logo.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/svg--logo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/section-blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-front.php" beforeDir="false" afterPath="$PROJECT_DIR$/section-front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/archive.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,11 +35,43 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section-blog.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" selection-start-line="17" selection-end-line="44" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archive-sponsors.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/archive.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archive-fixtures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" column="51" lean-forward="true" selection-end-line="126" selection-end-column="119" />
             </state>
           </provider>
         </entry>
@@ -124,6 +124,7 @@
         <option value="$PROJECT_DIR$/section-front.php" />
         <option value="$PROJECT_DIR$/build/scss/03_organism/_3.0.0-o-header.scss" />
         <option value="$PROJECT_DIR$/section-blog.php" />
+        <option value="$PROJECT_DIR$/archive.php" />
       </list>
     </option>
   </component>
@@ -250,12 +251,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559239197612</updated>
-      <workItem from="1559239199144" duration="9408000" />
+      <workItem from="1559239199144" duration="10023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9408000" />
+    <option name="totallyTimeSpent" value="10023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1641" y="-665" width="1440" height="877" extended-state="6" />
@@ -383,9 +384,6 @@
     <entry file="file://$PROJECT_DIR$/inc/custom-header.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/page-header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -425,6 +423,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive-sponsors.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive-fixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="51" lean-forward="true" selection-end-line="126" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" selection-start-line="17" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
         </state>
       </provider>
     </entry>
