@@ -8,6 +8,7 @@ initToggleFunctions();
 initSwiperFunctions();
 initScrollFunctions();
 initAltTextFunctions();
+initTextFunctions();
 
 // A.1. END -----------------------------------------------
 

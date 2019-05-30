@@ -42,6 +42,24 @@ add_action( 'widgets_init', 'social_sidebar_widgets_init' );
 
 // A.1.0.1. END
 
+// A.1.0.3. REGISTER SIDEBAR
+
+function homepage_widgets_init() {
+
+  register_sidebar( array(
+    'name' => 'homepage widget',
+    'id' => 'homepage',
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '<h3 class="a-widget-title">',
+    'after_title' => '</h3>',
+  ) );
+}
+
+add_action( 'widgets_init', 'homepage_widgets_init' );
+
+// A.1.0.3. END
+
 // A.1.0.2. Twitter Widget
 
 function arphabet_widgets_init() {

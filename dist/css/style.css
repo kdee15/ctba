@@ -682,24 +682,34 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
   .o-header.o-home-header {
     z-index: 1;
     background-size: cover;
-    background-position: center center; }
+    background-position: center center;
+    position: relative; }
+    .o-header.o-home-header .m-site-logo {
+      position: absolute;
+      top: calc(10% + 38px);
+      left: 10%;
+      width: 40%;
+      max-width: 300px; }
+      .o-header.o-home-header .m-site-logo .a-image {
+        width: 100%;
+        height: auto; }
+    .o-header.o-home-header .o-widget.homepage-widget {
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      width: 30%;
+      max-width: 550px; }
   .o-header.o-page-header .m-figure {
-    max-width: 120px; }
+    max-width: 100px; }
+    .o-header.o-page-header .m-figure .a-image {
+      width: 100%;
+      height: auto; }
   .o-header.o-page-header .m-breadcrumbs {
     opacity: 0; }
   .o-header .m-figure {
     width: 250px;
     padding: 0;
-    margin: 15px 0 15px 15px;
-    transition: 0.3s; }
-  .o-header #mvbc-logo #m-mvbc {
-    display: block;
-    transform: translate(-400px, 0);
-    transition: 0.3s;
-    opacity: 0; }
-  .o-header #mvbc-logo #m-mvbc-a {
-    display: block;
-    transform: translate(0);
+    margin: 15px;
     transition: 0.3s; }
   .o-header .o-hamburger {
     transition: 0.3s;
@@ -709,23 +719,9 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%); }
   .o-header.sticky .m-figure {
-    width: 150px;
+    width: 80px;
     transition: 0.3s;
-    margin: 5px; }
-  .o-header.sticky #mvbc-logo #m-mvbc {
-    display: block;
-    transform: translate(-120px, 0);
-    transition: 0.3s;
-    opacity: 1; }
-  .o-header.sticky #mvbc-logo #m-mvbc-a {
-    display: block;
-    transform: translate(40px, 0);
-    transition: 0.3s;
-    opacity: 0; }
-  .o-header.sticky #mvbc-logo #m-viking-dude {
-    display: block;
-    transform: translate(-140px, 0);
-    transition: 0.3s; }
+    margin: 5px 15px; }
   .o-header.sticky .o-hamburger {
     transition: 0.3s; }
 
@@ -763,6 +759,25 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
       font-size: 12px;
       display: block; }
 
+@media (max-width: 767px) {
+  .o-header.o-home-header {
+    display: block; }
+    .o-header.o-home-header .m-site-logo {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 80px;
+      float: right;
+      margin: 10px 15px; }
+    .o-header.o-home-header .o-widget.homepage-widget {
+      position: relative;
+      top: 75px;
+      left: 0;
+      right: 0;
+      width: auto;
+      margin: 0 15px;
+      clear: both; } }
+
 @media (min-width: 768px) {
   .o-article-header {
     position: relative;
@@ -774,7 +789,45 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
     .o-article-header img {
       width: 100%; }
     .o-article-header .a-post-title {
-      font-size: 32px; } }
+      font-size: 32px; }
+  .o-header.o-home-header .m-site-logo {
+    top: 0;
+    right: 0;
+    left: auto;
+    width: 120px;
+    float: right;
+    margin: 10px 15px;
+    position: absolute; }
+  .o-header.o-home-header .o-widget.homepage-widget {
+    top: 105px;
+    left: 0;
+    right: 0;
+    width: auto;
+    max-width: none;
+    margin: 0 15px; } }
+
+@media (min-width: 992px) {
+  .o-header.o-home-header {
+    z-index: 1;
+    background-size: cover;
+    background-position: center center;
+    position: relative; }
+    .o-header.o-home-header .m-site-logo {
+      position: absolute;
+      top: calc(10% + 38px);
+      left: 10%;
+      width: 40%;
+      max-width: 300px; }
+      .o-header.o-home-header .m-site-logo .a-image {
+        width: 100%;
+        height: auto; }
+    .o-header.o-home-header .o-widget.homepage-widget {
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      width: 30%;
+      max-width: 550px;
+      left: auto; } }
 
 @media (min-width: 1200px) {
   .o-article-header {
@@ -1045,6 +1098,44 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
 @media (min-width: 1900px) {
   .o-insta-feed .instagram-pics li {
     max-width: 16.66%; } }
+
+.o-widget.homepage-widget .a-text-link {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.o-widget.homepage-widget .a-widget-title {
+  margin-bottom: 10px; }
+
+.o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list {
+  border: 0 !important; }
+  .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list th {
+    background: #CCC !important; }
+  .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list tr:nth-child(odd) {
+    background: #F2F2F2; }
+  .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list th, .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list td {
+    font-size: 9px !important;
+    border: 0 !important; }
+    .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list th *, .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list td * {
+      font-size: 9px !important; }
+  .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list .data-article {
+    display: none; }
+
+@media (max-width: 767px) {
+  .o-widget.homepage-widget .a-widget-title {
+    font-size: 16px; }
+  .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list tr:nth-child(n+6) {
+    display: none; } }
+
+@media (min-width: 992px) {
+  .o-widget.homepage-widget .sp-template-event-list {
+    overflow: visible; }
+    .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper {
+      box-shadow: 0 0 10px 3px black; }
+      .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list th, .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list td {
+        font-size: 11px !important; }
+        .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list th *, .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list td * {
+          font-size: 11px !important; } }
 
 .page__blog {
   margin-top: 120px; }

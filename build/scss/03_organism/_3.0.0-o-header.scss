@@ -14,27 +14,28 @@
   width: 100%;
   z-index: 100;
 
-  &.o-home-header { z-index: 1; background-size: cover; background-position: center center; }
+  &.o-home-header { z-index: 1; background-size: cover; background-position: center center; position: relative;
+    .m-site-logo { position: absolute; top: calc(10% + 38px); left: 10%; width: 40%; max-width: 300px;
+      .a-image { width: 100%; height: auto; }
+    }
+    .o-widget {
+      &.homepage-widget { position: absolute; top: 10%; right: 10%; width: 30%; max-width: 550px; }
+    }
+  }
+
   &.o-page-header {
-    .m-figure { max-width: 120px; }
+    .m-figure { max-width: 100px;
+      .a-image { width: 100%; height: auto; }
+    }
     .m-breadcrumbs { opacity: 0; }
   }
 
-  .m-figure { width: 250px; padding: 0; margin: $base 0 $base $base; transition: 0.3s;  }
+  .m-figure { width: 250px; padding: 0; margin: $base; transition: 0.3s;  }
 
-  #mvbc-logo {
-    #m-mvbc { display: block; transform: translate( -400px, 0 ); transition: 0.3s; opacity: 0; }
-    #m-mvbc-a { display: block; transform: translate( 0 ); transition: 0.3s; }
-  }
   .o-hamburger { transition: 0.3s; @include vertical-align(absolute); }
 
   &.sticky {
-    .m-figure { width: 150px; transition: 0.3s; margin: 5px; }
-    #mvbc-logo {
-      #m-mvbc { display: block; transform: translate( -120px, 0 ); transition: 0.3s; opacity: 1; }
-      #m-mvbc-a { display: block; transform: translate( 40px, 0 ); transition: 0.3s; opacity: 0; }
-      #m-viking-dude { display: block; transform: translate(-140px,0); transition: 0.3s; }
-    }
+    .m-figure { width: 80px; transition: 0.3s; margin: 5px $base; }
     .o-hamburger { transition: 0.3s; }
   }
 }
@@ -66,7 +67,20 @@
 
 // B. MAX-WIDTH: 767px ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@media ($sm-dn) {} 
+@media ($sm-dn) {
+
+  .o-header {
+    &.o-home-header { display: block;
+      .m-site-logo { position: relative; top: 0; left: 0; width: 80px; float: right; margin: 10px $base; }
+      .o-widget {
+        &.homepage-widget {
+          position: relative; top: 75px; left: 0; right: 0; width: auto; margin: 0 $base; clear: both;
+        }
+      }
+    }
+  }
+
+}
 
 // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -83,13 +97,34 @@
 
   // A.2. END ---------------------------------------------
 
+  .o-header {
+    &.o-home-header {
+      .m-site-logo { top: 0; right: 0; left: auto; width: 120px; float: right; margin: 10px $base; position: absolute; }
+      .o-widget {
+        &.homepage-widget { top: 105px; left: 0; right: 0; width: auto; max-width: none; margin: 0 $base; }
+      }
+    }
+  }
+
 }
 
 // C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // D. MIN-WIDTH: 992px ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@media ($md-up) {} 
+@media ($md-up) {
+
+  .o-header {
+    &.o-home-header { z-index: 1; background-size: cover; background-position: center center; position: relative;
+      .m-site-logo { position: absolute; top: calc(10% + 38px); left: 10%; width: 40%; max-width: 300px;
+        .a-image { width: 100%; height: auto; }
+      }
+      .o-widget {
+        &.homepage-widget { position: absolute; top: 10%; right: 10%; width: 30%; max-width: 550px; left: auto; }
+      }
+    }
+  }
+}
 
 // D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

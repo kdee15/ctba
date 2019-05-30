@@ -1,14 +1,14 @@
 <section class="o-block blog-posts">
 
-  <div class="container">
-    <div class="row">
+  <div class="container p-0">
+    <div class="row no-gutters">
 
       <?php
 
       $args=array(
         'post_type' => 'post',
         'post_status' => 'publish',
-        'meta_key' => 'featured',
+        'meta_key' => 'featured_new',
         'orderby' => 'meta_value date',
         'order' => 'DESC',
         'posts_per_page' => 10
@@ -19,7 +19,7 @@
       if( $my_query->have_posts() ) {
         while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-          <article class="card blog-card col-12 col-md-4 col-lg-3 <?php the_field('featured') ?>">
+          <article class="card blog-card col-12 col-md-4 col-lg-3 <?php the_field('featured_new') ?>">
             <a class="o-card hover-card" href="<?php the_permalink() ?>">
               <figure class="m-card-image">
                 <?php the_post_thumbnail(); ?>
@@ -28,12 +28,10 @@
                 <h3 class="a-card-header"><?php the_title(); ?></h3>
                 <?php the_excerpt(); ?>
               </div>
-
             </a>
           </article>
 
         <?php
-
         endwhile;
       }
       wp_reset_query();  // Restore global post data stomped by the_post().

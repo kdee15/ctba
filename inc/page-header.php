@@ -9,7 +9,7 @@
 
 	<header class="o-header o-page-header" id="o-header">
     <a class="m-figure" href="/">
-      <?php get_template_part( 'inc/svg--page-logo' ); ?>
+      <img src="<?php echo get_template_directory_uri(); ?>/dist/images/site/Logo.png" alt="CTBA Logo" class="a-image logo-image">
     </a>
 		<div class="m-breadcrumbs">
       <?php if (function_exists('the_breadcrumb')) the_breadcrumb(); ?>
