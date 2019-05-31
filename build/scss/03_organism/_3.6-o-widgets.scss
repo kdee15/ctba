@@ -51,6 +51,27 @@
 			}
 		}
 	}
+	
+	.sp-section-content {
+		&.sp-section-content-tables {
+			.sp-template-league-table {
+				.sp-table-caption {}
+				.sp-table-wrapper {
+					.sp-league-table {
+						th.data-diff,
+						td.data-diff,
+						th.data-strk,
+						td.data-strk,
+						th.data-lten,
+						td.data-lten { display: none; }
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
 
 }
 

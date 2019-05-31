@@ -10,8 +10,8 @@
         <aside class="col-12 col-md-4">
 
           <h6>Contact Details</h6>
-          <p>Fax: 086 5020 150<br>
-            <a href="mailto:info@mvbc.co.za">info@mvbc.co.za</a>
+            <a href="mailto:secretary@ctba.co.za">secretary@ctba.co.za</a><br/>
+            <a href="mailto:ctba.compco@gmail.com">ctba.compco@gmail.com</a>
           </p>
         </aside>
 

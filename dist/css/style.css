@@ -1157,6 +1157,13 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
   .o-widget.homepage-widget .a-widget-title {
     font-size: 16px; }
   .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list tr:nth-child(n+6) {
+    display: none; }
+  .sp-section-content.sp-section-content-tables .sp-template-league-table .sp-table-wrapper .sp-league-table th.data-diff,
+  .sp-section-content.sp-section-content-tables .sp-template-league-table .sp-table-wrapper .sp-league-table td.data-diff,
+  .sp-section-content.sp-section-content-tables .sp-template-league-table .sp-table-wrapper .sp-league-table th.data-strk,
+  .sp-section-content.sp-section-content-tables .sp-template-league-table .sp-table-wrapper .sp-league-table td.data-strk,
+  .sp-section-content.sp-section-content-tables .sp-template-league-table .sp-table-wrapper .sp-league-table th.data-lten,
+  .sp-section-content.sp-section-content-tables .sp-template-league-table .sp-table-wrapper .sp-league-table td.data-lten {
     display: none; } }
 
 @media (min-width: 992px) {
