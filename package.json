@@ -12,7 +12,7 @@
     "autoprefixer": "^6.7.7",
     "connect-livereload": "^0.6.0",
     "express": "^4.15.2",
-    "gulp": "^4.0.2",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^2.3.2",
     "gulp-concat": "^2.6.1",
@@ -25,7 +25,7 @@
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^6.4.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^3.2.1",
     "gulp-server-livereload": "^1.9.2",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify": "^2.1.2",
@@ -42,7 +42,6 @@
     "tiny-lr": "^1.0.4"
   },
   "dependencies": {
-    "merge-stream": "^2.0.0",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.9.3"
   }
 }

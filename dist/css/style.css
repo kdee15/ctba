@@ -870,7 +870,7 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
 .o-footer {
   background-color: #808080;
   padding: 45px 0;
-  margin-top: 60px; }
+  margin-top: 0; }
   .o-footer h6 {
     color: #F2F2F2; }
   .o-footer p {
@@ -986,6 +986,8 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
           transition: 0.6s;
           height: auto;
           top: 40%; }
+  .o-card.inline-card .m-card-body {
+    display: table-cell; }
 
 .o-table-layout {
   display: table;
@@ -1099,6 +1101,28 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
   .o-insta-feed .instagram-pics li {
     max-width: 16.66%; } }
 
+.o-block.goals-block {
+  margin-top: 50px;
+  background: #F2F2F2;
+  padding: 60px 0; }
+  .o-block.goals-block .a-block-title {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px; }
+  .o-block.goals-block .a-block-text {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  .o-block.goals-block .card {
+    background-color: transparent; }
+  .o-block.goals-block .goal-card .m-card-image .a-icon {
+    width: 50px;
+    height: 50px; }
+  .o-block.goals-block .goal-card .m-card-body p {
+    color: #808080;
+    text-shadow: none; }
+
 .o-widget.homepage-widget .a-text-link {
   position: absolute;
   top: 0;
@@ -1156,6 +1180,12 @@ body.home {
       html.blog .p-main .o-block.blog-posts .a-btn,
       body.home.blog .p-main .o-block.blog-posts .a-btn {
         margin: 30px 0 0 0; }
+  html .o-block.blog-posts,
+  body.home .o-block.blog-posts {
+    margin-top: 15px; }
+    html .o-block.blog-posts .a-btn,
+    body.home .o-block.blog-posts .a-btn {
+      margin: 30px 0 0 0; }
 
 .page .default-page {
   margin-top: 120px; }

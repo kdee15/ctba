@@ -32,6 +32,7 @@ get_header();
     <!-- C.2. SECTIONS -------------------------------- -->
 
     <?php get_template_part( 'section-blog' ); ?>
+    <?php get_template_part( 'section-goals' ); ?>
 
     <!-- C.2. END ------------------------------------- -->
 

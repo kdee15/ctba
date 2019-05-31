@@ -24,7 +24,8 @@
 // A.1.2. BASE CARD SETTINGS ------------------------------
 
 .o-card { overflow: hidden; position: relative;
-  &.stacked {
+  // A.1.2.1. STACKED CARD --------------------------------
+	&.stacked {
     .m-card-image { margin: 0;
       img { width: 100%; height: auto; }
     }
@@ -33,10 +34,9 @@
       .a-btn { min-width: auto; }
     }
   }
+  // A.1.2.1. END -----------------------------------------
 
-
-  // A.1.1.1. HOVER CARD ----------------------------------
-
+	// A.1.2.2. HOVER CARD ----------------------------------
   &.hover-card { transition: 0.3s ease; position: relative;
 
     .m-card-image { @include aspect-ratio (100%, 100%);
@@ -78,8 +78,14 @@
     }
 
   }
-
-  // A.1.1.1. END -----------------------------------------
+  // A.1.2.2. END -----------------------------------------
+	
+	// A.1.2.3. HOVER CARD ----------------------------------
+	&.inline-card {
+		.m-card-image {}
+		.m-card-body { display: table-cell; }
+	}
+	// A.1.2.3. END -----------------------------------------
 
 }
 
