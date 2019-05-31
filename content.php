@@ -5,8 +5,8 @@
  * Used for both single and index/archive/search.
  *
  * @package WordPress
- * @subpackage Gold
- * @since Gold 1.0
+ * @subpackage kdee
+ * @since kdee 1.0
  */
 
 ?>

@@ -3,8 +3,8 @@
  * The main template file
  *
  * @package WordPress
- * @subpackage Spartan
- * @since Spartan 1.0
+ * @subpackage Kdee
+ * @since Kdee 1.0
  */
 
 get_header();

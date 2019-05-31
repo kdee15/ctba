@@ -1147,9 +1147,12 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
     background: #F2F2F2; }
   .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list th, .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list td {
     font-size: 9px !important;
-    border: 0 !important; }
+    border: 0 !important;
+    padding: 2px 4px;
+    text-align: center; }
     .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list th *, .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list td * {
-      font-size: 9px !important; }
+      font-size: 9px !important;
+      color: #2d2d6f; }
   .o-widget.homepage-widget .sp-template-event-list .sp-table-wrapper .sp-event-list .data-article {
     display: none; }
 

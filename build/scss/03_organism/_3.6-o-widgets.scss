@@ -15,8 +15,8 @@
 					tr {
 						&:nth-child(odd) { background: $grey-f2; }
 					}
-					th, td { font-size: 9px!important; border: 0!important;
-						* { font-size: 9px!important; }
+					th, td { font-size: 9px!important; border: 0!important; padding: 2px 4px; text-align: center;
+						* { font-size: 9px!important; color: $royal; }
 					}
 					.data-article { display: none; }
 				}

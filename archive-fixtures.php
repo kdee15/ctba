@@ -1,120 +1,63 @@
 <?php
 
 /*
-Template Name: Archive page
+Template Name: Default Archive Page
 */
 
 get_header(); ?>
 
 <!-- C. WORK AREA +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-    <!-- C.2. SITE MAST ------------------------------------------------------------------------------------------- -->
+<!-- C.2. SITE MAST ------------------------------------------------------------------------------------------- -->
 
-    <section class="page archive-fixtures" id="mast">
 
-        <!-- C.2.1. INTRO ----------------------------------------------------------------------------------------- -->
+<?php get_template_part( 'inc/page-header' ); ?>
 
-        <?php get_template_part( 'section-front' ); ?>
+<?php get_template_part( 'inc/navigation-page' ); ?>
 
-        <!-- C.2.1. End ------------------------------------------------------------------------------------------- -->
-        
-        <!-- C.2.2. SLIDER AREA ----------------------------------------------------------------------------------- -->
-        
-        <div class="wrapper">
-        
-            <!-- C.2.2.1. ABOUT US -------------------------------------------------------------------------------- -->
-            
-            <section class="content">
-            
-                <div class="container">
-                
-                    <h1>i am a fixture archive</h1>
+<!-- C.1. END ----------------------------------------- -->
 
-                    <ul class="list__fixtures grid">
+<main class="p-main page default-page">
 
-                    <?php
+  <div class="container" id="container">
 
-                        $fixture1 = current_time('Ymd');
+    <!-- C.2. SECTIONS -------------------------------- -->
 
-                        $args=array(
-                            'post_type' => 'fixtures',
-                            'post_status' => 'publish',
-                            'posts_per_page' => 6,
+    <?php
+    $args=array(
+      'post_type' => 'post',
+      'post_status' => 'publish'
+    );
+    $my_query = null;
+    $my_query = new WP_Query($args);
 
-                            'meta_query' => array(
-                                array(
-                                    'key' => 'date',
-                                    'compare' => '>=',
-                                    'value' => $fixture1,
-                                )
-                            ),
+    if( $my_query->have_posts() ) {
+      while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-                            'meta_key'	=> 'date',
-                            'orderby'	    => 'meta_value_num',
-                            'order'		=> 'ASC'
-                        );
-                        $my_query = null;
-                        $my_query = new WP_Query($args);
+        <?php the_title() ?>
 
-                        if( $my_query->have_posts() ) {
-                            while ($my_query->have_posts()) : $my_query->the_post(); ?>
+      <?php
+        the_excerpt();
+      endwhile;
+    }
 
-                                <li class="one-sixth mobi">
-                                <span class="fixture card">
-                                    <p class="fixture-element opponent">vs <?php the_field('opponent') ?></p>
-                                    <p class="fixture-element venue"><?php the_field('venue') ?></p>
-                                    <p class="fixture-element date">
+    wp_reset_query();  // Restore global post data stomped by the_post().
+    ?>
 
-                                        <?php 
+    <!-- C.2. END ------------------------------------- -->
 
-                                            // get raw date
-                                            $date = get_field('date', false, false);
+  </div>
 
-                                            // make date object
-                                            $date = new DateTime($date);
+  <!-- C.3. FOOTER  ----------------------------------- -->
 
-                                        ?>
+  <?php get_footer(); ?>
 
-                                        <?php echo $date->format('d M'); ?>
+  <!-- C.3. END --------------------------------------- -->
 
-                                    </p>
-                                </span>
-                                </li>
+</main>
 
-                            <?php
 
-                            endwhile;
-                        }
-                        wp_reset_query();  // Restore global post data stomped by the_post().
-                    ?> 
-
-                    </ul>
-                
-                </div>
-                
-            </section>
-            
-            <!-- C.2.2.1. END ------------------------------------------------------------------------------------- -->
-        
-        </div>
-        
-        <aside class="section-midbar no-tab">
-            
-            <?php dynamic_sidebar( 'twitter' ); ?>
-
-        </aside>
-                
-        <aside class="section-sidebar no-mobile">
-            
-            <?php get_template_part( 'section-sidebar' ); ?>
-
-        </aside>
-        
-        <!-- C.2.2. End ------------------------------------------------------------------------------------------- -->
-
-    </section>
-    
-    <!-- C.2. END ------------------------------------------------------------------------------------------------- -->
+<!-- C.2. END ------------------------------------------------------------------------------------------------- -->
 <?php get_footer(); ?>
 <!-- C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
