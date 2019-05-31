@@ -95,16 +95,16 @@ $radius-lrg:              0;
   
   // A.1.2. END : HOLLOW BLUE BUTTON ----------------------
 
-  // A.1.3. ORANGE BUTTON ---------------------------------
+  // A.1.3. ROYAL BUTTON ----------------------------------
   
-  &.btn-orange { color: #fff; background-color: $btn-clr-2; border-color: $btn-clr-2; 
+  &.btn-royal { color: #fff; background-color: $royal; border-color: $royal; 
     // Active styles
     &.focus, &:focus, &:hover, &.active { color: #fff; background-color: $btn-default-clr; border-color: $btn-default-clr; }
     // Modifiers
     & {}
   }
   
-  // A.1.3. END : ORANGE BUTTON ---------------------------
+  // A.1.3. END : ROYAL BUTTON ----------------------------
 
   // A.1.4. HOLLOW ORANGE BUTTON --------------------------
   

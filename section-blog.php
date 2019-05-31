@@ -39,7 +39,7 @@
 
     </div>
 
-    <a class="a-btn btn-blue" href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=22">VIEW MORE ARTICLES</a>
+    <a class="a-btn btn-royal" href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=27">VIEW MORE ARTICLES</a>
 
   </div>
 

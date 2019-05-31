@@ -6,12 +6,12 @@
 
 .o-widget {
 	&.homepage-widget {
-		.a-text-link { position: absolute; top: 0; right: 0; }
+		.a-text-link { position: absolute; top: 0; right: 0; color: white; font-weight: bold; }
 		.a-widget-title { margin-bottom: 10px; }
 		.sp-template-event-list {
 			.sp-table-wrapper {
-				.sp-event-list { border: 0!important;
-					th { background: #CCC!important; }
+				.sp-event-list { border: 0!important; background: white!important;
+					th { background: $grey-cc!important; }
 					tr {
 						&:nth-child(odd) { background: $grey-f2; }
 					}

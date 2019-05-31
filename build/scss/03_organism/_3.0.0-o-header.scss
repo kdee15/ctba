@@ -44,14 +44,21 @@
 
 // A.2. PAGE HEADER ---------------------------------------------------------------------------------------------------
 
-.o-article-header { @include aspect-ratio (100%, 65%); position: relative; overflow: hidden;
+.o-article-header { 
+	
+	@include aspect-ratio (100%, 65%); 
+	position: relative; 
+	overflow: hidden; 
+	background-size: cover; 
+	background-position: center; 
+	
   img {
     @include middle-align();
     position: absolute;
     width: auto;
     height: auto;
     z-index: 1;
-    opacity: 0.5;
+    opacity: 0.15;
     min-height: 100%;
     filter: blur(2px);
   }

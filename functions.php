@@ -22,6 +22,8 @@
     
     add_theme_support( 'post-thumbnails' );
 
+add_theme_support( 'sportspress' );
+
 // A.3 TEMPLATE CUSTOMISATION +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // A.1.0.1. REGISTER SIDEBAR
