@@ -19,31 +19,33 @@ get_header();
 <!-- C.1. END ----------------------------------------- -->
 
 <main class="p-main page single">
- 
-    <figure class="o-article-header">
-      <?php the_post_thumbnail(); ?>
-      <h3 class="a-post-title">VENUE TITLE<span class="a-footnote"><?php the_date(); ?></span></h3>
-    </figure>
- 
 
   <!-- C.1. PAGE HEADER ------------------------------- -->
 
-  <?php while ( have_posts() ) : the_post(); ?>
-
-    <p class="a-post-title">
-    <?php the_title(); ?></p>
-    <p><?php the_date(); ?></p>
-    <p><?php the_field(sp_day); ?></p>
-
-  
-
-  <?php endwhile; // end of the loop. ?>
+  <figure class="o-article-header">
+    <h3 class="a-post-title">VENUE DETAILS</h3>
+  </figure>
 
   <!-- C.1. END --------------------------------------- -->
 
   <!-- C.2. SECTIONS ---------------------------------- -->
 
+  <?php the_post_thumbnail(); ?>
 
+  <section class="o-block event-list container">
+    <div class="row">
+      <?php while ( have_posts() ) : the_post(); ?>
+        <div class="a-match-day"><?php the_date(); ?></div>
+        <section class="o-table-layout event-list">
+            <div class="a-table-row">
+              <div class="a-table-cell a-match-up"><?php the_title(); ?></div>
+              <div class="a-table-cell a-time"><?php the_time(); ?></div>
+              <div class="a-table-cell a-division"><?php the_field(sp_day); ?></div>
+            </div>
+        </section>
+      <?php endwhile; // end of the loop. ?>
+    </div>
+  </section>
 
   <!-- C.2. END --------------------------------------- -->
 

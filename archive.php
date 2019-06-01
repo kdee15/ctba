@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Default Archive Page
+Template Name: Basic Archive Page
 */
 
 get_header();
@@ -22,29 +22,54 @@ get_header();
 
   <!-- C.1. PAGE HEADER ------------------------------- -->
 
-  <?php while ( have_posts() ) : the_post(); ?>
-
-    <?php the_post_thumbnail(); ?>
-    <p class="a-post-title"><?php the_title(); ?><span class="a-footnote"><?php the_date(); ?></span></p>
-
-
-  <?php endwhile; // end of the loop. ?>
+  <figure class="o-article-header">
+    <h3 class="a-post-title">Latest Blog Posts</h3>
+  </figure>
 
   <!-- C.1. END --------------------------------------- -->
 
-  <!-- C.2. SECTIONS ---------------------------------- -->
+  <!-- C.2. SECTIONS -------------------------------- -->
 
-  <?php while ( have_posts() ) : the_post(); ?>
+  <section class="o-block blog-posts">
+    <div class="container p-0">
+      <div class="row no-gutters">
+        <?php
 
-    <section class="container">
+        $args=array(
+          'post_type' => 'post',
+          'post_status' => 'publish',
+          'orderby' => 'meta_value date',
+          'order' => 'DESC',
+          'posts_per_page' => 10
+        );
+        $my_query = null;
+        $my_query = new WP_Query($args);
 
-      <?php the_content(); ?>
+        if( $my_query->have_posts() ) {
+          while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-    </section>
+            <article class="card blog-card col-12 col-md-4 col-lg-3 feature">
+              <a class="o-card hover-card" href="<?php the_permalink() ?>">
+                <figure class="m-card-image">
+                  <?php the_post_thumbnail(); ?>
+                </figure>
+                <div class="m-card-body">
+                  <h3 class="a-card-header"><?php the_title(); ?></h3>
+                  <?php the_excerpt(); ?>
+                </div>
+              </a>
+            </article>
 
-  <?php endwhile; // end of the loop. ?>
+          <?php
+          endwhile;
+        }
+        wp_reset_query();  // Restore global post data stomped by the_post().
+        ?>
+      </div>
+    </div>
+  </section>
 
-  <!-- C.2. END --------------------------------------- -->
+  <!-- C.2. END ------------------------------------- -->
 
   <!-- C.3. FOOTER  ----------------------------------- -->
 

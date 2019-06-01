@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Default Archive Page
+Template Name: Fixture Archive Page
 */
 
 get_header(); ?>

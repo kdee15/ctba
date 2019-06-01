@@ -868,6 +868,38 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
   width: 100%;
   height: 100%;
   padding-bottom: 50px; }
+  .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item a {
+    padding: 10px 15px;
+    font-size: 12px;
+    border-bottom: 1px solid #2d2d6f;
+    transition: 0.2s; }
+  .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item .sub-menu {
+    margin-top: 0;
+    display: none; }
+    .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item .sub-menu .menu-item a {
+      padding-left: 25px; }
+
+@media (min-width: 992px) {
+  .main-navigation.navbar-nav .menu-menu-container ul.primary-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px; }
+    .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item a {
+      padding: 12px 15px;
+      font-size: 14px; }
+      .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item a:hover .submenu {
+        display: block; }
+    .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item .sub-menu {
+      margin-top: 0;
+      display: none; }
+      .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item .sub-menu .menu-item a {
+        padding-left: 25px; } }
 
 .o-footer {
   background-color: #2d2d6f;
@@ -1213,5 +1245,74 @@ body.home {
     margin-top: 0; }
     body.home.blog .p-main .o-block.blog-posts .container {
       padding: 0; } }
+
+.tax-sp_venue .o-article-header {
+  margin: 0;
+  padding: 0; }
+
+.tax-sp_venue .o-block.event-list {
+  margin-bottom: 50px; }
+  .tax-sp_venue .o-block.event-list .row > a {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 60px; }
+    .tax-sp_venue .o-block.event-list .row > a:before {
+      content: "";
+      display: block;
+      padding-top: 80%; }
+    .tax-sp_venue .o-block.event-list .row > a #sp_openstreetmaps_container {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important; }
+  .tax-sp_venue .o-block.event-list .row .a-match-day {
+    width: 100%;
+    font-size: 20px;
+    padding: 15px 15px 5px;
+    font-weight: 600; }
+  .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list {
+    width: 100%;
+    padding: 15px 10px; }
+    .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list:nth-of-type(even) {
+      background: white !important; }
+    .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row {
+      background: transparent; }
+      .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell {
+        margin: 0;
+        padding: 0;
+        vertical-align: middle; }
+        .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-match-up {
+          width: 70%; }
+        .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-time, .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-division {
+          width: 15%; }
+
+@media (max-width: 767px) {
+  .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list {
+    width: 100%;
+    padding: 10px 15px; }
+    .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell {
+      display: block;
+      text-align: left; }
+      .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-match-up {
+        width: 100%; }
+      .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-time, .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-division {
+        width: 50%;
+        float: left; } }
+
+@media (min-width: 768px) {
+  .tax-sp_venue .o-article-header {
+    margin: 0;
+    padding: 0; }
+  .tax-sp_venue .o-block.event-list .row > a {
+    position: relative;
+    width: 100%;
+    margin: 60px auto; }
+    .tax-sp_venue .o-block.event-list .row > a:before {
+      content: "";
+      display: block;
+      padding-top: 30%; } }
 
 /*# sourceMappingURL=style.css.map */

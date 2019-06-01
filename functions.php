@@ -24,6 +24,18 @@
 
 add_theme_support( 'sportspress' );
 
+
+
+function sp_venue($query)
+{
+  if ($query->sp_venue() && $query->is_main_query())
+  {
+    $query->set( 'orderby', 'time' );
+  }
+}
+add_action('pre_get_posts', 'sp_venue');
+
+
 // A.3 TEMPLATE CUSTOMISATION +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // A.1.0.1. REGISTER SIDEBAR
