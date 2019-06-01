@@ -1035,6 +1035,41 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
   .o-table-layout.full-width {
     width: 100%; }
 
+table.sp-data-table thead {
+  background: #4fc5d7; }
+  table.sp-data-table thead tr th {
+    padding: 5px 3px; }
+
+table.sp-data-table tbody tr.odd, table.sp-data-table tbody tr.alternate {
+  background: #F2F2F2; }
+
+table.sp-data-table tbody tr.highlighted {
+  background: #CCCCCC; }
+
+table.sp-data-table tbody tr:last-child {
+  border-bottom: 1px solid #CCCCCC; }
+
+table.sp-data-table tbody tr td {
+  padding: 2px 3px; }
+  table.sp-data-table tbody tr td a {
+    color: #2d2d6f;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 1.5;
+    display: block; }
+
+@media (min-width: 768px) {
+  table.sp-data-table thead tr th {
+    padding: 5px 10px; }
+  table.sp-data-table tbody tr td {
+    padding: 5px 10px; }
+    table.sp-data-table tbody tr td a {
+      font-size: 0.8rem; } }
+
+@media (min-width: 992px) {
+  table.sp-data-table tbody tr td a {
+    font-size: 1rem; } }
+
 .o-block.blog-posts {
   margin: 60px auto; }
 
@@ -1287,6 +1322,45 @@ body.home {
         .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-time, .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-division {
           width: 15%; }
 
+.single-sp_team .sp-section-content.sp-section-content-logo {
+  width: 100%; }
+  .single-sp_team .sp-section-content.sp-section-content-logo .sp-team-logo {
+    max-width: none;
+    width: 100%;
+    float: none;
+    margin: 0; }
+    .single-sp_team .sp-section-content.sp-section-content-logo .sp-team-logo img {
+      width: 100%;
+      height: auto;
+      max-width: 250px;
+      margin: 50px auto;
+      display: block; }
+
+.single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a {
+  display: flex;
+  flex-direction: column; }
+  .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a .sp-team-name {
+    order: 2; }
+  .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a img {
+    max-width: 100px;
+    margin: 0 auto;
+    height: auto;
+    order: 1; }
+
+.single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-result {
+  font-size: 24px; }
+
+.single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-event-logos-time.sp-team-result {
+  font-size: 32px;
+  margin: 15px auto;
+  display: block; }
+
+.single-sp_event .sp-section-content.sp-section-content-venue table.sp-data-table thead tr th a {
+  color: white; }
+
+.single-sp_event .sp-section-content.sp-section-content-venue table.sp-data-table tbody tr td {
+  padding: 0; }
+
 @media (max-width: 767px) {
   .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list {
     width: 100%;
@@ -1312,5 +1386,26 @@ body.home {
       content: "";
       display: block;
       padding-top: 30%; } }
+
+@media (min-width: 992px) {
+  .single-sp_team .sp-section-content.sp-section-content-details {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle; }
+  .single-sp_team .sp-section-content.sp-section-content-logo {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle; }
+    .single-sp_team .sp-section-content.sp-section-content-logo .sp-team-logo {
+      max-width: none;
+      width: 100%;
+      float: none;
+      margin: 0; }
+      .single-sp_team .sp-section-content.sp-section-content-logo .sp-team-logo img {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+        margin: 50px auto;
+        display: block; } }
 
 /*# sourceMappingURL=style.css.map */
