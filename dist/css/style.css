@@ -858,26 +858,27 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
       display: block;
       padding-top: 15%; } }
 
-.main-navigation.navbar-nav .menu-menu-container ul.primary-menu {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: scroll;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 50px; }
-  .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item a {
-    padding: 10px 15px;
-    font-size: 12px;
-    border-bottom: 1px solid #2d2d6f;
-    transition: 0.2s; }
-  .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item .sub-menu {
-    margin-top: 0;
-    display: none; }
-    .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item .sub-menu .menu-item a {
-      padding-left: 25px; }
+.main-navigation.navbar-nav .menu-menu-container {
+  margin-bottom: 20px; }
+  .main-navigation.navbar-nav .menu-menu-container ul.primary-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px; }
+    .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item a {
+      padding: 10px 15px;
+      font-size: 12px;
+      border-bottom: 1px solid #2d2d6f;
+      transition: 0.2s; }
+    .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item .sub-menu {
+      margin-top: 0; }
+      .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item .sub-menu .menu-item a {
+        padding-left: 25px; }
 
 @media (min-width: 992px) {
   .main-navigation.navbar-nav .menu-menu-container ul.primary-menu {
@@ -893,11 +894,8 @@ body.home.fixed .p-main, body.home.modal-open .p-main {
     .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item a {
       padding: 12px 15px;
       font-size: 14px; }
-      .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item a:hover .submenu {
-        display: block; }
     .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item .sub-menu {
-      margin-top: 0;
-      display: none; }
+      margin-top: 0; }
       .main-navigation.navbar-nav .menu-menu-container ul.primary-menu .menu-item .sub-menu .menu-item a {
         padding-left: 25px; } }
 
