@@ -31,7 +31,7 @@ table.sp-data-table {
 			&.highlighted { background: $grey-cc; }
 			&:last-child { border-bottom: 1px solid $grey-cc; }
 			td { padding: 2px 3px;
-				a { color: $royal; font-weight: 300; font-size: 8px; line-height: 1.5; display: block; }
+				a { color: $royal; font-weight: 300; font-size: 11px; line-height: 1.5; display: block; }
 			}
 		}
 	}
@@ -43,7 +43,18 @@ table.sp-data-table {
 
 // B. MAX-WIDTH: 767px ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@media ($xs-dn) {}
+@media ($xs-dn) {
+	
+	table.sp-league-table {
+		th.data-diff,
+		td.data-diff,
+		th.data-strk,
+		td.data-strk,
+		th.data-lten,
+		td.data-lten { display: none; }
+	}
+	
+}
 
 @media ($sm-dn) {} 
 

@@ -1054,9 +1054,18 @@ table.sp-data-table tbody tr td {
   table.sp-data-table tbody tr td a {
     color: #2d2d6f;
     font-weight: 300;
-    font-size: 8px;
+    font-size: 11px;
     line-height: 1.5;
     display: block; }
+
+@media (max-width: 575px) {
+  table.sp-league-table th.data-diff,
+  table.sp-league-table td.data-diff,
+  table.sp-league-table th.data-strk,
+  table.sp-league-table td.data-strk,
+  table.sp-league-table th.data-lten,
+  table.sp-league-table td.data-lten {
+    display: none; } }
 
 @media (min-width: 768px) {
   table.sp-data-table thead tr th {
@@ -1318,7 +1327,8 @@ body.home {
         padding: 0;
         vertical-align: middle; }
         .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-match-up {
-          width: 70%; }
+          width: 70%;
+          font-weight: 300; }
         .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-time, .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-division {
           width: 15%; }
 
@@ -1336,30 +1346,36 @@ body.home {
       margin: 50px auto;
       display: block; }
 
-.single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a {
-  display: flex;
-  flex-direction: column; }
-  .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a .sp-team-name {
-    order: 2; }
-  .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a img {
-    max-width: 100px;
-    margin: 0 auto;
-    height: auto;
-    order: 1; }
+.single-sp_team .sp-section-content.sp-section-content-link .sp-button {
+  border: 1px solid #2d2d6f;
+  padding: 8px 15px; }
+  .single-sp_team .sp-section-content.sp-section-content-link .sp-button:hover {
+    background: #4fc5d7; }
+
+.single-sp_team .sp-section-content.sp-section-content-details .sp-team-details .dt[home] {
+  display: none; }
+
+.single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a img {
+  max-width: 50px;
+  height: auto; }
 
 .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-result {
   font-size: 24px; }
 
 .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-event-logos-time.sp-team-result {
-  font-size: 32px;
-  margin: 15px auto;
-  display: block; }
+  font-size: 32px; }
 
 .single-sp_event .sp-section-content.sp-section-content-venue table.sp-data-table thead tr th a {
   color: white; }
 
 .single-sp_event .sp-section-content.sp-section-content-venue table.sp-data-table tbody tr td {
   padding: 0; }
+
+.single-sp_event .sp-section-content.sp-section-content-details table.sp-data-table thead tr th:nth-child(4) {
+  display: none; }
+
+.single-sp_event .sp-section-content.sp-section-content-details table.sp-data-table tbody tr td:nth-child(4) {
+  display: none; }
 
 @media (max-width: 767px) {
   .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list {
@@ -1372,7 +1388,25 @@ body.home {
         width: 100%; }
       .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-time, .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list .a-table-row .a-table-cell.a-division {
         width: 50%;
-        float: left; } }
+        float: left;
+        background: #F9F9F9;
+        padding: 3px 0; }
+  .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a {
+    display: flex;
+    flex-direction: column; }
+    .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a .sp-team-name {
+      order: 2; }
+    .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a img {
+      max-width: 100px;
+      margin: 0 auto;
+      height: auto;
+      order: 1; }
+  .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-result {
+    font-size: 24px; }
+  .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-event-logos-time.sp-team-result {
+    font-size: 32px;
+    margin: 15px auto;
+    display: block; } }
 
 @media (min-width: 768px) {
   .tax-sp_venue .o-article-header {
