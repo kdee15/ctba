@@ -8,6 +8,10 @@ function initTextFunctions() {
 
   $('.sp-event-list th.data-time').text('Time');
   $('.sp-event-list th.data-day').text('Div');
+	
+	
+	
+  $('.single-sp_event .sp-section-content-details .sp-event-details th:nth-child(5)').text('No');
 
   // A.1. END ---------------------------------------------
 

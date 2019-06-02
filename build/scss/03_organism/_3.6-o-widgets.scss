@@ -10,7 +10,7 @@
 		.a-widget-title { margin-bottom: 10px; }
 		.sp-template-event-list {
 			.sp-table-wrapper {
-				.sp-event-list { border: 0!important; background: white!important;
+				.sp-event-list { border: 0!important; background: white!important; 
 					th { background: $grey-cc!important; }
 					tr {
 						&:nth-child(odd) { background: $grey-f2; }
@@ -70,9 +70,6 @@
 		}
 	}
 	
-	
-	
-
 }
 
 // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

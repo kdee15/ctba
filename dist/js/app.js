@@ -422,8 +422,8 @@ function initAltTextFunctions() {
 
   var totalImages = 1;
   // var RandomNumPath = 'http://www.ctba.co.za/wp-content/themes/kdee';
-  // var RandomNumPath = 'http://staging.kdee.co.za/ctba/wp-content/themes/kdee';
-  var RandomNumPath = 'http://localhost/kdee/ctba.co.za/3_root/wp-content/themes/kdee';
+   var RandomNumPath = 'http://staging.kdee.co.za/ctba/wp-content/themes/kdee';
+//  var RandomNumPath = 'http://localhost/kdee/ctba.co.za/3_root/wp-content/themes/kdee';
   var RandomNum = Math.floor( Math.random() * totalImages); 
 
   $(document).ready(function(){
@@ -449,6 +449,10 @@ function initTextFunctions() {
 
   $('.sp-event-list th.data-time').text('Time');
   $('.sp-event-list th.data-day').text('Div');
+	
+	
+	
+  $('.single-sp_event .sp-section-content-details .sp-event-details th:nth-child(5)').text('No');
 
   // A.1. END ---------------------------------------------
 
