@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d0c1d2e-3237-4240-ac47-0710bdf203f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/scss/04_pages/_4.1-p-venue.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive-fixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/archive-fixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/archive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/04_pages/_0.0-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/04_pages/_0.0-index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/icons/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/site/bg-header-orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/site/bg-header-yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/site/bg-header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/site/images-come-here.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxonomy-venue.php" beforeDir="false" afterPath="$PROJECT_DIR$/taxonomy-venue.php" afterDir="false" />
-    </list>
+    <list default="true" id="3d0c1d2e-3237-4240-ac47-0710bdf203f0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
-              <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -122,10 +103,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1641" />
-    <option name="y" value="-665" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -256,15 +236,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559239197612</updated>
-      <workItem from="1559239199144" duration="17082000" />
+      <workItem from="1559239199144" duration="17280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17082000" />
+    <option name="totallyTimeSpent" value="17280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1641" y="-665" width="1440" height="840" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="840" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
@@ -495,7 +475,7 @@
     <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
-          <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
         </state>
       </provider>
     </entry>
