@@ -1355,15 +1355,20 @@ body.home {
 .single-sp_team .sp-section-content.sp-section-content-details .sp-team-details .dt[home] {
   display: none; }
 
-.single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a img {
-  max-width: 50px;
-  height: auto; }
+.single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a {
+  vertical-align: middle; }
+  .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-logo a img {
+    max-width: 50px;
+    height: auto; }
 
 .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-team-result {
-  font-size: 24px; }
+  font-size: 24px;
+  vertical-align: middle; }
 
 .single-sp_event .sp-section-content.sp-section-content-logos .sp-template-event-logos .sp-event-logos .sp-event-logos-time.sp-team-result {
-  font-size: 32px; }
+  font-size: 32px;
+  vertical-align: middle;
+  text-transform: uppercase; }
 
 .single-sp_event .sp-section-content.sp-section-content-venue table.sp-data-table thead tr th a {
   color: white; }

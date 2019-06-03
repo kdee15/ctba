@@ -66,14 +66,14 @@
 			.sp-template-event-logos {
 				.sp-event-logos {
 					.sp-team-logo {
-						a {
+						a { vertical-align: middle;
 							.sp-team-name {}
 							img { max-width: 50px; height: auto; }
 						}
 					}
-					.sp-team-result { font-size: 24px; }
+					.sp-team-result { font-size: 24px; vertical-align: middle; }
 					.sp-event-logos-time {
-						&.sp-team-result { font-size: 32px; }
+						&.sp-team-result { font-size: 32px; vertical-align: middle; text-transform: uppercase; }
 					}
 				}
 			}
