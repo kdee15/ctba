@@ -3,25 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="3d0c1d2e-3237-4240-ac47-0710bdf203f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/scripts/1.8--image-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/scripts/1.8--image-functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/background/bg-main0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/background/bg-main0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/svg/MVBCLogo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/svg/MVBCLogoAnim.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/svg/MVBCLogoW.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/svg/icon--cogs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/svg/icon--cogs.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/svg/icon--star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/svg/icon--star.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/svg/icon--team.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/svg/icon--team.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/svg/overlay.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/svg/overlay2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/footer-scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/footer-scripts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/svg--logo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/svg--page-logo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--facebook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--fb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--film.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--linkedIn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--microphone.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--mobile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--phone.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--pin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--radio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--television.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--twitter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/includes/icons/icon--youtube.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,29 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
               <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/footer-scripts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -68,7 +49,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cbpFWSlider.min.js</find>
+      <find>;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>,</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -99,7 +84,9 @@
         <option value="$PROJECT_DIR$/archive.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/inc/footer-scripts.php" />
+        <option value="$PROJECT_DIR$/dist/data/ctba-fixtures.csv" />
         <option value="$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss" />
+        <option value="$PROJECT_DIR$/footer.php" />
       </list>
     </option>
   </component>
@@ -129,84 +116,6 @@
               <item name="kdee" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="00_base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="01_atom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="02_molecule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="03_organism" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="04_pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kdee" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,7 +126,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/scss/04_pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -257,17 +166,18 @@
       <workItem from="1559239199144" duration="17280000" />
       <workItem from="1559463008366" duration="89000" />
       <workItem from="1559594063837" duration="663000" />
+      <workItem from="1559595682241" duration="1881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18032000" />
+    <option name="totallyTimeSpent" value="19913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1641" y="-665" width="1440" height="877" extended-state="6" />
+    <frame x="1678" y="-615" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -460,25 +370,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/svg--logo.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/svg--page-logo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13950">
-          <caret line="930" lean-forward="true" selection-start-line="930" selection-end-line="930" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/svg--logo.php" />
+    <entry file="file://$PROJECT_DIR$/inc/svg--page-logo.php" />
     <entry file="file://$PROJECT_DIR$/dist/images/svg/icon--team.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/images/svg/overlay.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/images/svg/overlay2.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/images/svg/overlay.svg" />
+    <entry file="file://$PROJECT_DIR$/dist/images/svg/overlay2.svg" />
     <entry file="file://$PROJECT_DIR$/dist/images/svg/icon--cogs.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -488,24 +386,44 @@
     <entry file="file://$PROJECT_DIR$/dist/images/svg/twitter.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/dist/data/ctba-fixtures.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        <state relative-caret-position="390">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#a#0;n#li#0;n#ul#0;n#aside#1;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/images/icons/icon--instagram.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/footer-scripts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="558">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
         </state>
       </provider>
     </entry>
