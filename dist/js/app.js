@@ -421,8 +421,8 @@ function initAltTextFunctions() {
   // A.2. RANDOM BACKGROUND -------------------------------
 
   var totalImages = 1;
-  // var RandomNumPath = 'http://www.ctba.co.za/wp-content/themes/kdee';
-   var RandomNumPath = 'http://staging.kdee.co.za/ctba/wp-content/themes/kdee';
+   var RandomNumPath = 'http://www.ctba.co.za/wp-content/themes/kdee';
+//   var RandomNumPath = 'http://staging.kdee.co.za/ctba/wp-content/themes/kdee';
 //  var RandomNumPath = 'http://localhost/kdee/ctba.co.za/3_root/wp-content/themes/kdee';
   var RandomNum = Math.floor( Math.random() * totalImages); 
 
