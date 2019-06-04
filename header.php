@@ -23,24 +23,17 @@
 
 <!-- A. CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/libraries/bootstrap400.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/style.min.css">
 
     <!-- A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
     <!-- B. HEAD JS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-    <!-- LOCAL -->
-<!--    <script src="--><?php //bloginfo('template_url'); ?><!--/dist/js/jquery/jquery.min.js"></script>-->
-<!--    <script src="--><?php //bloginfo('template_url'); ?><!--/dist/js/libraries/bootstrap.min.js"></script>-->
-<!--    <script src="--><?php //bloginfo('template_url'); ?><!--/dist/js/libraries/swiper.min.js"></script>-->
-
-    <!-- LIVE -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libraries/jquery-3.3.1.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libraries/popper.1.12.9.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libraries/bootstrap400.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libraries/swiper441.min.js"></script>
 
     <!-- B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
