@@ -6,7 +6,7 @@
 			<article class="card col-12 col-md-4">
 				<div class="o-card inline-card goal-card">
 					<figure	class="m-card-image float-left mr-3">
-						<img class="a-icon icon-unity" src="<?php echo get_template_directory_uri(); ?>/dist/images/svg/icon--team.svg" />
+						<img class="a-icon icon-unity" src="<?php echo get_template_directory_uri(); ?>/dist/images/icons/icon--team.png" />
 					</figure>
 					<div class="m-card-body">
 						<h4 class="media-heading">Unity</h4>
@@ -17,7 +17,7 @@
 			<article class="card col-12 col-md-4">
 				<div class="o-card inline-card goal-card">
 					<figure	class="m-card-image float-left mr-3">
-						<img class="a-icon icon-unity" src="<?php echo get_template_directory_uri(); ?>/dist/images/svg/icon--cogs.svg" />
+						<img class="a-icon icon-unity" src="<?php echo get_template_directory_uri(); ?>/dist/images/icons/icon--cogs.png" />
 					</figure>
 					<div class="m-card-body">
 						<h4 class="media-heading">Growth</h4>
@@ -28,7 +28,7 @@
 			<article class="card col-12 col-md-4">
 				<div class="o-card inline-card goal-card">
 					<figure	class="m-card-image float-left mr-3">
-						<img class="a-icon icon-unity" src="<?php echo get_template_directory_uri(); ?>/dist/images/svg/icon--star.svg" />
+						<img class="a-icon icon-unity" src="<?php echo get_template_directory_uri(); ?>/dist/images/icons/icon--star.png" />
 					</figure>
 					<div class="m-card-body">
 						<h4 class="media-heading">Integrity and Accuracy</h4>
