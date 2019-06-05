@@ -22,9 +22,14 @@
     
     add_theme_support( 'post-thumbnails' );
 
-    add_theme_support( 'sportspress' );
 
+// A.1 SPORTSPRESS CUSTOMISATION ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+add_theme_support( 'sportspress' );
+
+// ADD QUICKEDIT COLUMNS
+
+// END QUICKEDIT COLUMNS
 
 function sp_venue($query)
 {
@@ -33,8 +38,10 @@ function sp_venue($query)
     $query->set( 'orderby', 'time' );
   }
 }
+
 add_action('pre_get_posts', 'sp_venue');
 
+// A.1 END ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // A.3 TEMPLATE CUSTOMISATION +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -92,12 +99,7 @@ add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 // A.3 END ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// A.4 END ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-// A.4 END ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 // A.5 END ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 
 // A.X BREADCRUMBS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -212,12 +214,11 @@ function the_breadcrumb() {
 
 // A.X END ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-    // Load jQuery
-    if ( !is_admin() ) {
-       wp_deregister_script('jquery');
-       wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"), false);
-       wp_enqueue_script('jquery');
-    }
-    
+  // Load jQuery
+  if ( !is_admin() ) {
+     wp_deregister_script('jquery');
+     wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"), false);
+     wp_enqueue_script('jquery');
+  }
 
 ?>

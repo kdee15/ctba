@@ -44,16 +44,35 @@
 			}
 		}
 		&.sp-section-content-link {
-			.sp-button { border: 1px solid $royal; padding: 8px 15px;
-				&:hover { background: $blue-lt; }
+			.sp-button { border: 1px solid $royal; padding: 8px 15px; transition: 0.3s;
+				&:hover { background: $blue-lt; transition: 0.3s; }
 			}
 		}
 		&.sp-section-content-details {
 			.sp-team-details {
-				.dt[home] { display: none; }
+				dt[content=Home] { display: none; }
+				dd {
+					a {
+						display: inline-block;
+						padding: 8px 15px;
+						border: 1px solid $royal;
+						color: $royal;
+						font-weight: 300;
+						text-decoration: none;
+						transition: 0.3s;
+						&:hover { background-color: $blue-lt; transition: 0.3s; }
+					}
+				}
+			}
+		}
+
+		&.sp-section-content-events {
+			table.sp-event-list {
+				.data-results { text-align: center; }
 			}
 		}
 	}
+
 }
 
 // A.2. END -----------------------------------------------------------------------------------------------------------
@@ -117,6 +136,26 @@
 
 // A.3. END -----------------------------------------------------------------------------------------------------------
 
+// A.4. FIXTURES & RESULTS LIST ---------------------------------------------------------------------------------------
+
+.single-sp_calendar {
+	.sp-section-content {
+		&.sp-section-content-data {
+			table.sp-event-list {
+				.data-event {
+					a { display: flex; justify-content: space-evenly; align-items: center;
+						span.team-logo { margin-right: 0;
+							&:nth-of-type(2) { order: 3; }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// A.4. END -----------------------------------------------------------------------------------------------------------
+
 // A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // B. MOBILE VIEW +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -177,7 +216,30 @@
 			}
 		}
 	}
-	
+
+	.single-sp_calendar {
+		table.sp-event-list {
+			thead { font-size: 8px; text-align: center; }
+			tbody { font-size: 11px; }
+		}
+	}
+
+	.single-sp_team {
+		.sp-section-content {
+			&.sp-section-content-tables,
+			&.sp-section-content-events {
+				table.sp-league-table,
+				table.sp-event-list {
+					thead { font-size: 12px;
+						tr {
+							th.data-results { text-align: center; }
+						}
+					}
+				}
+			}
+		}
+	}
+
 }
 
 // B.2. MIN-WIDTH: 768px ----------------------------------
