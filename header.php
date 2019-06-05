@@ -24,7 +24,7 @@
 <!-- A. CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/libraries/bootstrap400.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/style.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css">
 
     <!-- A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 

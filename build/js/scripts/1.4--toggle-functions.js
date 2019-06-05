@@ -6,6 +6,25 @@ function initToggleFunctions() {
 
   // A.1. GENERAL SHOW ------------------------------------
 
+  $(".ctba-toggle-menu a").each(function () {
+
+    {
+      $(this).click(function (){
+
+        var myClikka = $(this);
+        var myUL = $(this).siblings(".sub-menu").toggleClass("on");
+
+        myClikka.toggleClass('on');
+        $("ul").not(myUL).removeClass("on");
+        $("a").not(myClikka).removeClass("on");
+      });
+    }
+  });
+
+  // A.1. END ---------------------------------------------
+
+  // A.1. GENERAL SHOW ------------------------------------
+
   $('.showhide').click(function(e) {
 
     var target = $(this).attr('href');

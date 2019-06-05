@@ -17,6 +17,9 @@
 					}
 					th, td { font-size: 9px!important; border: 0!important; padding: 2px 4px; text-align: center;
 						* { font-size: 9px!important; color: $royal; }
+						&.data-event {
+							.team-logo { display: none; }
+						}
 					}
 					.data-article { display: none; }
 				}

@@ -3,7 +3,7 @@
     <!-- D.2. SITE -->
 
     <script src="<?php bloginfo('template_url'); ?>/dist/js/libraries.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/dist/js/app.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/dist/js/app.js"></script>
 
     <!-- D.3. GOOGLE ANALYTICS -->
 
