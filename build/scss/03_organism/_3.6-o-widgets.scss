@@ -6,8 +6,13 @@
 
 .o-widget {
 	&.homepage-widget {
-		.a-text-link { position: absolute; top: 0; right: 0; color: white; font-weight: bold; }
-		.a-widget-title { margin-bottom: 10px; }
+		.a-text-link { position: absolute; top: 0; right: 0; color: white; font-weight: bold; font-size: 12px;
+			span {
+				width: 12px; height: 15px; display: inline-block; vertical-align: middle;
+				background: url('../images/site/button--arrow-right-wht.svg'); background-size: cover; background-position: center;
+			}
+		}
+		.a-widget-title { margin-bottom: 10px; color: white; text-shadow: 0 2px 5px black; }
 		.sp-template-event-list {
 			.sp-table-wrapper {
 				.sp-event-list { border: 0!important; background: white!important; 
@@ -29,6 +34,30 @@
 }
 
 // A.1. END -----------------------------------------------------------------------------------------------------------
+
+// A.2. HOMEPAGE NOTIFICATION -----------------------------------------------------------------------------------------
+
+.home {
+	.textwidget {
+		&.custom-html-widget {
+			.o-card {
+				&.status-card { background-color: white; box-shadow: 0 0 10px 3px black;
+					.a-card-title { font-size: 14px; background-color: $blue-lt; color: white; padding: 10px; text-align: center; }
+					.m-news-flash { margin: 0 10px; margin-bottom: 15px; border-bottom: 2px solid $royal;
+						.a-nf-title { font-size: 1.2rem; }
+						.a-nf-text { font-size: 0.8rem; }
+					}
+					&.d-none {}
+
+				}
+			}
+		}
+	}
+}
+
+
+
+// A.2. END -----------------------------------------------------------------------------------------------------------
 
 // A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

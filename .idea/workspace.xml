@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0c1d2e-3237-4240-ac47-0710bdf203f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/images/site/button--arrow-right-wht.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/html/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/03_organism/_3.6-o-widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/03_organism/_3.6-o-widgets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/footer-scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/footer-scripts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/CG-838.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/inc/_footer-includes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/inc/_header-includes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static-html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_776-carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_807-tab-1-content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_807-tab-2-content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_807-tab-3-content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_838-accordion-cat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_838-accordion-sc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_838-accordion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_block-flipbook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-html/partials/_layout.cshtml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/scss/04_pages/_4.1-p-sportspress.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
+            <state relative-caret-position="449">
               <caret line="146" column="44" selection-start-line="146" selection-start-column="44" selection-end-line="146" selection-end-column="44" />
               <folding>
                 <element signature="e#377#1280#0" />
@@ -38,13 +61,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.1-o-cards.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="73" column="55" selection-start-line="73" selection-start-column="55" selection-end-line="73" selection-end-column="55" />
+            <state relative-caret-position="323">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.6-o-widgets.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/images/site/button--arrow-right.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/images/site/button--arrow-right-wht.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -81,17 +123,21 @@
         <option value="$PROJECT_DIR$/section-goals.php" />
         <option value="$PROJECT_DIR$/sportspress/single-calendar.php" />
         <option value="$PROJECT_DIR$/dist/images/icons/icon--close.svg" />
-        <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/inc/footer-scripts.php" />
         <option value="$PROJECT_DIR$/build/js/scripts/1.4--toggle-functions.js" />
         <option value="$PROJECT_DIR$/build/scss/03_organism/_3.0.1-o-menu.scss" />
         <option value="$PROJECT_DIR$/single-team.php" />
-        <option value="$PROJECT_DIR$/build/scss/03_organism/_3.6-o-widgets.scss" />
         <option value="$PROJECT_DIR$/build/scss/00_base/_0.3-b-typography.scss" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/build/js/scripts/1.9--text-functions.js" />
         <option value="$PROJECT_DIR$/build/scss/04_pages/_4.1-p-sportspress.scss" />
         <option value="$PROJECT_DIR$/build/scss/03_organism/_3.1-o-cards.scss" />
+        <option value="$PROJECT_DIR$/build/html/home.html" />
+        <option value="$PROJECT_DIR$/build/html/CGS-838.html" />
+        <option value="$PROJECT_DIR$/static-html/index.html" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/inc/footer-scripts.php" />
+        <option value="$PROJECT_DIR$/dist/images/site/button--arrow-right-wht.svg" />
+        <option value="$PROJECT_DIR$/build/scss/03_organism/_3.6-o-widgets.scss" />
       </list>
     </option>
   </component>
@@ -109,13 +155,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
               <item name="kdee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kdee" type="462c0819:PsiDirectoryNode" />
+              <item name="_gulp.tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
@@ -196,18 +246,38 @@
             <path>
               <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
               <item name="kdee" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kdee" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="svg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kdee" type="462c0819:PsiDirectoryNode" />
               <item name="inc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kdee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kdee" type="462c0819:PsiDirectoryNode" />
+              <item name="static-html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/scss/04_pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/images/site" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -217,6 +287,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/images/site" />
       <recent name="$PROJECT_DIR$/build/scss/04_pages" />
       <recent name="$PROJECT_DIR$/build/js/scripts" />
       <recent name="$PROJECT_DIR$/build/scss/03_organism" />
@@ -254,7 +325,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29855000" />
+    <option name="totallyTimeSpent" value="33276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1641" y="-665" width="1440" height="877" extended-state="6" />
@@ -287,46 +358,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/scss/01_atom/_1.0-a-global.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static-html/inc/_header-includes.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/navigation-page.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/custom-header.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/page-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="130" selection-start-line="11" selection-start-column="130" selection-end-line="11" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/section-front.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.0.0-o-header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archive-sponsors.php" />
     <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -420,29 +451,12 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/images/site/X5O6PLWZCUCwYPWHEdbueg.jpg" />
-    <entry file="file://$PROJECT_DIR$/dist/images/site/button--arrow-right.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/images/site/maxresdefault.jpg" />
     <entry file="file://$PROJECT_DIR$/dist/images/site/button--arrow-left.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/images/site/bg-header-black.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/footer-scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="91" lean-forward="true" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/single-team.php" />
     <entry file="file://$PROJECT_DIR$/functions.php">
@@ -466,13 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.6-o-widgets.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -506,7 +513,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/scss/04_pages/_4.1-p-sportspress.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
+        <state relative-caret-position="449">
           <caret line="146" column="44" selection-start-line="146" selection-start-column="44" selection-end-line="146" selection-end-column="44" />
           <folding>
             <element signature="e#377#1280#0" />
@@ -516,8 +523,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.1-o-cards.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="73" column="55" selection-start-line="73" selection-start-column="55" selection-end-line="73" selection-end-column="55" />
+        <state relative-caret-position="323">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-html/CG-838.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/html/CG-838.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_gulp.tasks/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/html/CGS-838.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/html/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/footer-scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-start-column="4" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="33" selection-start-line="33" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/images/site/button--arrow-right.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/images/site/button--arrow-right-wht.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/03_organism/_3.6-o-widgets.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="80" />
         </state>
       </provider>
     </entry>

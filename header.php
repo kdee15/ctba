@@ -23,17 +23,31 @@
 
 <!-- A. CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/libraries/bootstrap400.min.css">
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+
+    <!-- LOCAL -->
+<!--    <link rel="stylesheet" href="--><?php //echo get_template_directory_uri(); ?><!--/dist/css/libraries/bootstrap400.min.css">-->
+
+
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css">
 
     <!-- A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
     <!-- B. HEAD JS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-    <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libraries/jquery-3.3.1.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libraries/popper.1.12.9.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libraries/bootstrap400.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libraries/swiper441.min.js"></script>
+    <!-- CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+
+    <!-- LOCAL -->
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/dist/js/libraries/jquery-3.3.1.min.js"></script>-->
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/dist/js/libraries/popper.1.12.9.min.js"></script>-->
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/dist/js/libraries/bootstrap400.min.js"></script>-->
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/dist/js/libraries/swiper441.min.js"></script>-->
 
     <!-- B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
