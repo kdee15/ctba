@@ -39,3 +39,7 @@ xmlrpc.php
 /themes
 
 node_modules
+**/*/.DS_Store
+*/.DS_Store
+.DS_Store
+.idea
