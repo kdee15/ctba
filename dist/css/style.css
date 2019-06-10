@@ -1598,6 +1598,11 @@ body.home {
       -ms-flex-order: 3;
       order: 3; }
 
+.single-sp_calendar .sp-section-content.sp-section-content-data table.sp-event-list tr.sp-post {
+  border-bottom: 1px solid #F2F2F2; }
+  .single-sp_calendar .sp-section-content.sp-section-content-data table.sp-event-list tr.sp-post.alternate {
+    background: transparent; }
+
 @media (max-width: 767px) {
   .tax-sp_venue .o-block.event-list .row .o-table-layout.event-list {
     width: 100%;

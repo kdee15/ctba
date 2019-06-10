@@ -16,6 +16,33 @@ function initTextFunctions() {
   $('.single-sp_event .sp-section-content-details .sp-event-details th:nth-child(5)').text('No');
 
   // A.1. END ---------------------------------------------
+	
+  // A.2. REORDER FIXTURE DATA ----------------------------
+	
+	var rows = jQuery('.sp-event-list tbody  tr').get();
+
+    rows.sort(function(a, b) {
+
+        var A = jQuery(a).children('.data-spec').eq(1).text().toUpperCase();
+        var B = jQuery(b).children('.data-spec').eq(1).text().toUpperCase();
+
+        if(A < B) {
+        	return -1;
+        }
+
+        if(A > B) {
+        	return 1;
+        }
+
+        return 0;
+
+    });
+
+    jQuery.each(rows, function(index, row) {
+        jQuery('.sp-event-list').children('tbody').append(row);
+    });
+	
+  // A.2. END ---------------------------------------------
 
 }
     
