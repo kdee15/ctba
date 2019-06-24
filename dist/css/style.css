@@ -1472,12 +1472,16 @@ body.home {
 
 .single-sp_calendar .sp-section-content.sp-section-content-data table.sp-event-list .data-event a {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center; }
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
   .single-sp_calendar .sp-section-content.sp-section-content-data table.sp-event-list .data-event a span.team-logo {
     margin-right: 0; }
+    .single-sp_calendar .sp-section-content.sp-section-content-data table.sp-event-list .data-event a span.team-logo:nth-of-type(1) {
+      margin-right: 4px; }
     .single-sp_calendar .sp-section-content.sp-section-content-data table.sp-event-list .data-event a span.team-logo:nth-of-type(2) {
-      order: 3; }
+      order: 3;
+      margin-left: 4px; }
 
 .single-sp_calendar .sp-section-content.sp-section-content-data table.sp-event-list tr.sp-post {
   border-bottom: 1px solid #F2F2F2; }
