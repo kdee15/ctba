@@ -10,6 +10,8 @@ function initTextFunctions() {
   $('.sp-event-list th.data-day').text('Div');
 
   $('.sp-event-list th.data-league').text('Div');
+  $('.sp-event-list th.data-officials:nth-of-type(1)').text('Ref');
+  $('.sp-event-list th.data-officials:nth-of-type(2)').text('TO');
 
 	
 	
