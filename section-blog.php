@@ -8,10 +8,10 @@
       $args=array(
         'post_type' => 'post',
         'post_status' => 'publish',
-        'meta_key' => 'featured_new',
+//        'meta_key' => 'featured_new',
         'orderby' => 'meta_value date',
         'order' => 'DESC',
-        'posts_per_page' => 10
+        'posts_per_page' => 4
       );
       $my_query = null;
       $my_query = new WP_Query($args);

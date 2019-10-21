@@ -27,12 +27,23 @@ function initTextFunctions() {
 
         var A = jQuery(a).children('.data-spec').eq(1).text().toUpperCase();
         var B = jQuery(b).children('.data-spec').eq(1).text().toUpperCase();
+			
+        var A2 = jQuery(a).children('.data-specs').eq(1).text().toUpperCase();
+        var B2 = jQuery(b).children('.data-specs').eq(1).text().toUpperCase();
 
         if(A < B) {
         	return -1;
         }
 
         if(A > B) {
+        	return 1;
+        }
+
+        if(A2 < B2) {
+        	return -1;
+        }
+
+        if(A2 > B2) {
         	return 1;
         }
 
