@@ -62,7 +62,7 @@
 .o-bracket {
 
 	.m-bracket { padding: 0;
-		.m-bracket-wrapper { display: block; padding: 5px;
+		.m-bracket-wrapper { display: block; padding: 5px; height: 100%;
 			.a-team-name {
 				a { color: black;
 					.team-logo {
@@ -80,6 +80,8 @@
 		}
 	}
 
+	.m-vs { align-self: center; display: block; text-align: center; margin: 0; }
+
 	.o-elim {
 		.m-bracket:nth-of-type(odd) { margin-bottom: 4px; margin-top: 10px; }
 		.m-bracket:nth-of-type(even) { margin-bottom: 10px; margin-top: 4px; }
@@ -92,7 +94,7 @@
 
 	.o-final {
 		.m-bracket { margin: 5px 0;
-			&:first-of-type { margin-top: 170px; }
+			&:first-of-type { margin-top: 80px; }
 		}
 	}
 }
@@ -148,7 +150,8 @@
 
 		.o-round { display: flex; flex-wrap: wrap;
 			.m-round-title { width: 100%; }
-			.m-bracket { width: 50%; }
+			.m-bracket { width: 45%; }
+			.m-vs { align-self: center; display: block; text-align: center; width: 10%; }
 			&.o-elim,
 			&.o-semi,
 			&.o-final {
