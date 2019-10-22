@@ -55,9 +55,49 @@
 	}
 }
 
-
-
 // A.2. END -----------------------------------------------------------------------------------------------------------
+
+// A.3. BRACKETS ------------------------------------------------------------------------------------------------------
+
+.o-bracket {
+
+	.m-bracket { padding: 0;
+		.m-bracket-wrapper { display: block; padding: 5px;
+			.a-team-name {
+				a { color: black;
+					.team-logo {
+						img { width: 30px; height: auto; margin-right: 7px; }
+					}
+				}
+			}
+		}
+		.a-pos { font-size: 8px; display: block;  }
+		&:nth-of-type(odd) {
+			.m-bracket-wrapper { background: #E4E4E4; }
+		}
+		&:nth-of-type(even) {
+			.m-bracket-wrapper { background: #F4F4F4; }
+		}
+	}
+
+	.o-elim {
+		.m-bracket:nth-of-type(odd) { margin-bottom: 4px; margin-top: 10px; }
+		.m-bracket:nth-of-type(even) { margin-bottom: 10px; margin-top: 4px; }
+	}
+
+	.o-semi {
+		.m-bracket:first-of-type { margin-top: 42px; }
+		.m-bracket { margin-bottom: 55px; }
+	}
+
+	.o-final {
+		.m-bracket { margin: 5px 0;
+			&:first-of-type { margin-top: 170px; }
+		}
+	}
+}
+
+// A.3. END -----------------------------------------------------------------------------------------------------------
 
 // A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -101,7 +141,27 @@
 			}
 		}
 	}
-	
+
+	// A.3. BRACKETS ------------------------------------------------------------------------------------------------------
+
+	.o-bracket {
+
+		.o-round { display: flex; flex-wrap: wrap;
+			.m-round-title { width: 100%; }
+			.m-bracket { width: 50%; }
+			&.o-elim,
+			&.o-semi,
+			&.o-final {
+				.m-bracket { margin: 10px 0;
+					&:nth-of-type(odd) { padding-right: 2px; }
+					&:nth-of-type(even) { padding-left: 2px; }
+				}
+			}
+		}
+	}
+
+	// A.3. END -----------------------------------------------------------------------------------------------------------
+
 }
 
 // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

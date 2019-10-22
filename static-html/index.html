@@ -1,57 +1,243 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Keith Prowse</title>
-        <!-- A. CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-        -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-        <script src="../dist/css/libraries/owl.carousel.css"></script>
-        <link rel="stylesheet" href="../dist/css/style.css">
-        <!-- A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-        -->
-        <!-- B. HEAD JS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-        -->
-        <script src="../dist/js/components/jquery.min.js"></script>
-        <script src="../dist/js/components/bootstrap.min.js"></script>
-        <script src="../dist/js/components/owl-carousel/owl.carousel.js"></script>
-        <!--[if lt IE 9]>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-        <![endif]-->
-        <!-- B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-        -->
-    </head>
-    
-    <body class="home" style="background: cornflowerblue;">
 
-    <aside class="o-widget homepage-widget">
-        <h3 class="a-widget-title">STATUS UPDATE</h3>
-        <div class="textwidget custom-html-widget">
-            <article class="o-card status-card">
-                <div class="m-card-body">
-                    <h4 class="a-card-title">LEAGUE STATUS REPORT</h4>
-                    <div class="m-news-flash">
-                        <h5 class="a-nf-title">
-                            GAME CANCELLED
-                        </h5>
-                        <p class="a-nf-text">
-                            G#42: Dragons vs Glads cancelled
-                        </p>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </aside>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keith Prowse</title>
+  <!-- A. CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+  <link rel="stylesheet" href="../dist/css/style.css">
+  <!-- A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- B. HEAD JS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <!-- B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+</head>
+
+<body>
+
+<section class="o-playoffs">
+
+  <div class="o-bracket b12">
+    <h2>Girls U12</h2>
+    <div class="row d-none d-md-flex">
+      <span class="col col-md-3">Elimination Round</span>
+      <span class="col col-md-3">Semi Final</span>
+      <span class="col col-md-3">Final</span>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-3 o-elim o-round">
+        <span class="m-round-title d-block d-md-none">Elimination Round</span>
+        <!-- GAME START -->
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 2</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/delft-umoja/"><span class="team-logo"><img width="128" height="85" src="http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-128x85.jpeg" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-128x85.jpeg 128w, http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-300x198.jpeg 300w, http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-32x21.jpeg 32w, http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja.jpeg 534w" sizes="(max-width: 128px) 100vw, 128px"></span>Umoja</a>
+        </span>
+        </span>
+        </p>
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 7</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/langa-kings-basketball-club/"><span class="team-logo"><img width="128" height="95" src="http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-128x95.png" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-128x95.png 128w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-300x222.png 300w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-768x569.png 768w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-1024x758.png 1024w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-32x24.png 32w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings.png 1280w" sizes="(max-width: 128px) 100vw, 128px"></span>Kings</a>
+        </span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+        <!-- GAME START -->
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 3</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/gugulethu-hustlers-basketball-club/"><span class="team-logo"><img width="95" height="128" src="http://www.ctba.co.za/wp-content/uploads/2019/05/gugulethu-hustlers-95x128.png" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/gugulethu-hustlers-95x128.png 95w, http://www.ctba.co.za/wp-content/uploads/2019/05/gugulethu-hustlers-24x32.png 24w, http://www.ctba.co.za/wp-content/uploads/2019/05/gugulethu-hustlers.png 202w" sizes="(max-width: 95px) 100vw, 95px"></span>GHBC</a>
+        </span>
+        </span>
+        </p>
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 6</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/pride-basketball-club/"><span class="team-logo"><img width="128" height="128" src="http://www.ctba.co.za/wp-content/uploads/2019/05/pride-128x128.png" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/pride-128x128.png 128w, http://www.ctba.co.za/wp-content/uploads/2019/05/pride-150x150.png 150w, http://www.ctba.co.za/wp-content/uploads/2019/05/pride-32x32.png 32w, http://www.ctba.co.za/wp-content/uploads/2019/05/pride.png 250w" sizes="(max-width: 128px) 100vw, 128px"></span>Pride</a>
+        </span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+        <!-- GAME START -->
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 4</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/delft-umoja/"><span class="team-logo"><img width="128" height="85" src="http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-128x85.jpeg" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-128x85.jpeg 128w, http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-300x198.jpeg 300w, http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-32x21.jpeg 32w, http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja.jpeg 534w" sizes="(max-width: 128px) 100vw, 128px"></span>Umoja</a>
+        </span>
+        </span>
+        </p>
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 5</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/langa-kings-basketball-club/"><span class="team-logo"><img width="128" height="95" src="http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-128x95.png" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-128x95.png 128w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-300x222.png 300w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-768x569.png 768w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-1024x758.png 1024w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-32x24.png 32w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings.png 1280w" sizes="(max-width: 128px) 100vw, 128px"></span>Kings</a>
+        </span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+      </div>
+
+      <div class="col-12 col-md-3 o-semi o-round">
+        <span class="m-round-title d-block d-md-none">Semi Final</span>
+          <!-- GAME START -->
+        <p class="m-bracket mt-md-2 mb-md-1">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 1</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/houtbay-snipers-basketball-club/">Snipers</a>
+        </span>
+        </span>
+        </p>
+        <p class="m-bracket mt-md-1 mb-md-2">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED ?</span><span class="a-score"></span><span class="a-team-name">WINNER</span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+        <!-- GAME START -->
+        <p class="m-bracket mt-md-2 mb-md-1">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 2</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/cape-waves-bc/"><span class="team-logo"><img width="128" height="88" src="http://www.ctba.co.za/wp-content/uploads/2019/05/cape-waves-128x88.png" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/cape-waves-128x88.png 128w, http://www.ctba.co.za/wp-content/uploads/2019/05/cape-waves-300x206.png 300w, http://www.ctba.co.za/wp-content/uploads/2019/05/cape-waves-32x22.png 32w, http://www.ctba.co.za/wp-content/uploads/2019/05/cape-waves.png 314w" sizes="(max-width: 128px) 100vw, 128px"></span>CWBC</a>
+        </span>
+        </span>
+        </p>
+        <p class="m-bracket mt-md-1 mb-md-2">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED ?</span><span class="a-score"></span><span class="a-team-name">WINNER</span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+      </div>
+      <div class="col-12 col-md-3 o-final o-round">
+        <span class="m-round-title d-block d-md-none">FINAL</span>
+        <!-- GAME START -->
+        <p class="m-bracket mt-md-5">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED ?</span><span class="a-score"></span><span class="a-team-name">WINNER</span>
+        </span>
+        </p>
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED ?</span><span class="a-score"></span><span class="a-team-name">WINNER</span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+      </div>
+    </div>
+  </div>
 
 
+  <div class="o-bracket g12">
+    <h2>Girls U12</h2>
+    <div class="row d-none d-md-flex">
+      <span class="col col-md-3">Elimination Round</span>
+      <span class="col col-md-3">Semi Final</span>
+      <span class="col col-md-3">Final</span>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-3 o-elim o-round">
+        <span class="m-round-title d-block d-md-none">Elimination Round</span>
+        <!-- GAME START -->
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 3</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/gugulethu-hustlers-basketball-club/"><span class="team-logo"><img width="95" height="128" src="http://www.ctba.co.za/wp-content/uploads/2019/05/gugulethu-hustlers-95x128.png" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/gugulethu-hustlers-95x128.png 95w, http://www.ctba.co.za/wp-content/uploads/2019/05/gugulethu-hustlers-24x32.png 24w, http://www.ctba.co.za/wp-content/uploads/2019/05/gugulethu-hustlers.png 202w" sizes="(max-width: 95px) 100vw, 95px"></span>GHBC</a>
+        </span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+        <!-- GAME START -->
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 6</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/pride-basketball-club/"><span class="team-logo"><img width="128" height="128" src="http://www.ctba.co.za/wp-content/uploads/2019/05/pride-128x128.png" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/pride-128x128.png 128w, http://www.ctba.co.za/wp-content/uploads/2019/05/pride-150x150.png 150w, http://www.ctba.co.za/wp-content/uploads/2019/05/pride-32x32.png 32w, http://www.ctba.co.za/wp-content/uploads/2019/05/pride.png 250w" sizes="(max-width: 128px) 100vw, 128px"></span>Pride</a>
+        </span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+        <!-- GAME START -->
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 4</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/delft-umoja/"><span class="team-logo"><img width="128" height="85" src="http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-128x85.jpeg" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-128x85.jpeg 128w, http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-300x198.jpeg 300w, http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja-32x21.jpeg 32w, http://www.ctba.co.za/wp-content/uploads/2019/05/Delft-Umoja.jpeg 534w" sizes="(max-width: 128px) 100vw, 128px"></span>Umoja</a>
+        </span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+        <!-- GAME START -->
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 5</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/langa-kings-basketball-club/"><span class="team-logo"><img width="128" height="95" src="http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-128x95.png" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-128x95.png 128w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-300x222.png 300w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-768x569.png 768w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-1024x758.png 1024w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings-32x24.png 32w, http://www.ctba.co.za/wp-content/uploads/2019/05/Langa-Kings.png 1280w" sizes="(max-width: 128px) 100vw, 128px"></span>Kings</a>
+        </span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+      </div>
+      <div class="col-12 col-md-3 o-semi o-round">
+        <span class="m-round-title d-block d-md-none">Semi Final</span>
+          <!-- GAME START -->
+        <p class="m-bracket mt-md-2 mb-md-1">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 1</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/houtbay-snipers-basketball-club/">Snipers</a>
+        </span>
+        </span>
+        </p>
+        <p class="m-bracket mt-md-1 mb-md-2">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED ?</span><span class="a-score"></span><span class="a-team-name">WINNER</span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+        <!-- GAME START -->
+        <p class="m-bracket mt-md-2 mb-md-1">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED 2</span><span class="a-score"></span><span class="a-team-name">
+          <a href="http://www.ctba.co.za/team/cape-waves-bc/"><span class="team-logo"><img width="128" height="88" src="http://www.ctba.co.za/wp-content/uploads/2019/05/cape-waves-128x88.png" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="" srcset="http://www.ctba.co.za/wp-content/uploads/2019/05/cape-waves-128x88.png 128w, http://www.ctba.co.za/wp-content/uploads/2019/05/cape-waves-300x206.png 300w, http://www.ctba.co.za/wp-content/uploads/2019/05/cape-waves-32x22.png 32w, http://www.ctba.co.za/wp-content/uploads/2019/05/cape-waves.png 314w" sizes="(max-width: 128px) 100vw, 128px"></span>CWBC</a>
+        </span>
+        </span>
+        </p>
+        <p class="m-bracket mt-md-1 mb-md-2">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED ?</span><span class="a-score"></span><span class="a-team-name">WINNER</span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+      </div>
+      <div class="col-12 col-md-3 o-final o-round">
+        <span class="m-round-title d-block d-md-none">FINAL</span>
+        <!-- GAME START -->
+        <p class="m-bracket mt-md-5">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED ?</span><span class="a-score"></span><span class="a-team-name">WINNER</span>
+        </span>
+        </p>
+        <p class="m-bracket">
+        <span class="m-bracket-wrapper">
+          <span class="a-pos">SEED ?</span><span class="a-score"></span><span class="a-team-name">WINNER</span>
+        </span>
+        </p>
+        <!-- GAME END - -->
+      </div>
+    </div>
+  </div>
 
 
+</section>
 
 
-    </body>
+</body>
 
 </html>
