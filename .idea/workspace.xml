@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3d0c1d2e-3237-4240-ac47-0710bdf203f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static-html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static-html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_gulp.tasks/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/_gulp.tasks/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/html/brackets.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/html/brackets.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +74,7 @@
       <workItem from="1560651639994" duration="71000" />
       <workItem from="1560935443865" duration="156000" />
       <workItem from="1560951547388" duration="79000" />
+      <workItem from="1574240066902" duration="228000" />
     </task>
     <servers />
   </component>
