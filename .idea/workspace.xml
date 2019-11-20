@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0c1d2e-3237-4240-ac47-0710bdf203f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/html/2019-results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/html/inc/_footer-includes.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/html/inc/_footer-includes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/html/inc/_header-includes.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/html/inc/_header-includes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static-html/brackets.html" beforeDir="false" afterPath="$PROJECT_DIR$/static-html/brackets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static-html/inc/_header-includes.html" beforeDir="false" afterPath="$PROJECT_DIR$/static-html/inc/_header-includes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/03_organism/_3.6-o-widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/03_organism/_3.6-o-widgets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/images/site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build/html" />
       <recent name="$PROJECT_DIR$/dist/images/site" />
       <recent name="$PROJECT_DIR$/build/scss/04_pages" />
       <recent name="$PROJECT_DIR$/build/js/scripts" />
@@ -76,7 +78,7 @@
       <workItem from="1560651639994" duration="71000" />
       <workItem from="1560935443865" duration="156000" />
       <workItem from="1560951547388" duration="79000" />
-      <workItem from="1574240066902" duration="586000" />
+      <workItem from="1574240066902" duration="4188000" />
     </task>
     <servers />
   </component>
