@@ -1466,7 +1466,7 @@ table.sp-data-table tbody tr td {
     text-align: center;
     font-weight: 400; }
   .o-result .o-card .team-logo {
-    WIDTH: 100%;
+    width: 30%;
     display: block;
     margin: 0 auto; }
     .o-result .o-card .team-logo img {
