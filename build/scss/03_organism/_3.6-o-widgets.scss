@@ -70,6 +70,8 @@
 					}
 				}
 			}
+			.a-score { font-weight: 400; float: right; }
+			&.m-winner { font-weight: 400; }
 		}
 		.a-pos { font-size: 8px; display: block;  }
 		&:nth-of-type(odd) {

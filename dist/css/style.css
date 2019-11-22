@@ -1415,6 +1415,11 @@ table.sp-data-table tbody tr td {
         width: 30px;
         height: auto;
         margin-right: 7px; }
+    .o-bracket .m-bracket .m-bracket-wrapper .a-score {
+      font-weight: 400;
+      float: right; }
+    .o-bracket .m-bracket .m-bracket-wrapper.m-winner {
+      font-weight: 400; }
   .o-bracket .m-bracket .a-pos {
     font-size: 8px;
     display: block; }
