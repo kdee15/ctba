@@ -97,6 +97,10 @@
 	.o-final {
 		.m-bracket { margin: 5px 0;
 			&:first-of-type { margin-top: 80px; }
+
+			.m-bracket-wrapper {
+				&.m-winner { background: gold; }
+			}
 		}
 	}
 }
